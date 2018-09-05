@@ -23,33 +23,11 @@ search.addWidget(
     })
 );
 
-// initialize hits widget
-search.addWidget(
-    instantsearch.widgets.hits({
-        container: '#hits'
-    })
-);
-
 // initialize RefinementList
 search.addWidget(
     instantsearch.widgets.refinementList({
         container: '#refinement-list',
         attributeName: 'categories'
-    })
-);
-
-// initialize SearchBox
-search.addWidget(
-    instantsearch.widgets.searchBox({
-        container: '#search-box',
-        placeholder: 'Search for products'
-    })
-);
-
-// initialize hits widget
-search.addWidget(
-    instantsearch.widgets.hits({
-        container: '#hits'
     })
 );
 
