@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Algolia Instant Search Demo</title>
+    <link rel="stylesheet" href="node_modules/instantsearch.js/dist/instantsearch.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+</head>
+
+<body>
+    <header>
+        <h1>Algolia Demo from Website</h1>
+        <div id="input-container">
+            <input type="text" id="search-input" placeholder="Search for Products">
+        </div>
+    </header>
+    <main>
+		<div id="hits"></div>
+		<div id="pagination"></div>
+    </main>
+	<script type="text/html" id="hit-template">
+		<div class="hit">
+			<div class="hit-image">
+				<img src="{{image}}" alt="{{name}}">
+			</div>
+		</div>
+		<div class="hit-content">
+			<h3 class="hit-price">${{price}}</h3>
+			<h2 class="hit-name">{{{_highlightResult.name.value}}}</h2>
+			<p class="hit-description">{{{_highlightResult.description.value}}}</p>
+		</div>
+	</script>
+</body>
+<script src="node_modules/instantsearch.js/dist/instantsearch.min.js"></script>
+<script src="app-demo.js"></script>
+
+</html>
