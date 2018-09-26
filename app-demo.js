@@ -28,4 +28,35 @@ search.addWidget(
 	})
 );
 
+search.addWidget(
+	instantsearch.widgets.refinementList({
+		container: '#brand-refinement',
+		attributeName: 'brand',
+		templates: {
+			header: 'Brand'
+		},
+		searchForFacetValues: {
+			placeholder: 'Search for brands',
+			templates: {
+				noResults: '<div class="sffv_no-results">No matching brands.</div>'
+			}
+		}
+	})
+);
+
+search.addWidget(
+	instantsearch.widgets.rangeSlider({
+		container: '#price-refinement',
+		attributeName: 'price',
+		templates: {
+			header: 'Price'
+		},
+		tooltips: {
+			format: function(rawValue) {
+				return '$' + Math.round(rawValue).toLocaleString();
+			}
+		}
+	})
+);
+
 search.start();
