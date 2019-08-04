@@ -1,6 +1,6 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Algolia Instantsearch Demo ",
   "main": "index.html",
   "author": "JamesVanWaza <info@dosbranding.com>",
@@ -10,10 +10,11 @@
   },
   "peerDependencies": {
     "algoliasearch": "^3.33.0",
+    "algoliasearch-helper": "^2.28.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0"
   },
   "devDependencies": {
-    "instantsearch.js": "^3.5.4"
+    "instantsearch.js": "^3.6.0"
   }
 }
