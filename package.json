@@ -1,12 +1,13 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Algolia Instantsearch Demo ",
   "main": "index.html",
   "author": "JamesVanWaza <info@dosbranding.com>",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "firebase": "^7.6.1",
     "firebase-admin": "^8.9.0"
   },
   "peerDependencies": {
