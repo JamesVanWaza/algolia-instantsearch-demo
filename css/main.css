@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topbar {
-  background: #222F3F;
+  background: #07BAD6;
   padding: 10px;
   height: 60px;
   width: 100%;
@@ -215,4 +215,9 @@ h1, h2, h3, h4, h5, h6 {
 .ais-pagination--item__active a {
   color: #000000;
   font-weight: bold;
+}
+
+footer {
+	background-color: #07BAD6;
+	color: white;
 }
