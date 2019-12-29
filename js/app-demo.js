@@ -8,13 +8,14 @@ const search = instantsearch({
 	searchClient,
 });
 
-search.addWidget(
+search.addWidgets([
 	instantsearch.widgets.searchBox({
-		container: '#search-input'
+		container: '#searchbox'
 	})
-);
+]);
 
-search.addWidget(
+
+search.addWidgets([
 	instantsearch.widgets.hits({
 		container: '#hits',
 		hitsPerPage: 10,
@@ -23,15 +24,15 @@ search.addWidget(
 			empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
 		}
 	})
-);
+]);
 
-search.addWidget(
+search.addWidgets([
 	instantsearch.widgets.pagination({
 		container: '#pagination'
 	})
-);
+]);
 
-search.addWidget(
+search.addWidgets([
 	instantsearch.widgets.refinementList({
 		container: '#brand-refinement',
 		attributeName: 'brand',
@@ -45,9 +46,9 @@ search.addWidget(
 			}
 		}
 	})
-);
+]);
 
-search.addWidget(
+search.addWidgets([
 	instantsearch.widgets.rangeSlider({
 		container: '#price-refinement',
 		attributeName: 'price',
@@ -60,6 +61,6 @@ search.addWidget(
 			}
 		}
 	})
-);
+]);
 
 search.start();
