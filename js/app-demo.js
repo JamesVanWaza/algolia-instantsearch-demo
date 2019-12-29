@@ -14,6 +14,16 @@ search.addWidgets([
 	})
 ]);
 
+search.addWidgets([
+	instantsearch.widgets.currentRefinements({
+		container: '#current-refinements',
+	}),
+
+	instantsearch.widgets.refinementList({
+		container: '#brand-list',
+		attribute: 'brand',
+	})
+]);
 
 search.addWidgets([
 	instantsearch.widgets.hits({
@@ -32,21 +42,6 @@ search.addWidgets([
 	})
 ]);
 
-search.addWidgets([
-	instantsearch.widgets.refinementList({
-		container: '#brand-refinement',
-		attributeName: 'brand',
-		templates: {
-			header: 'Brand'
-		},
-		searchForFacetValues: {
-			placeholder: 'Search for brands',
-			templates: {
-				noResults: '<div class="sffv_no-results">No matching brands.</div>'
-			}
-		}
-	})
-]);
 
 search.addWidgets([
 	instantsearch.widgets.rangeSlider({
