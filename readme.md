@@ -1,4 +1,1 @@
-# Requirements 
-- [ x ] Install Instantsearch using Yarn
-- [   ] Test why InstantSearch is not working.
-- [   ] Setup Firebase Hosting - https://firebase.google.com/docs/web/setup 
+Site setup - CI with Google Cloud Repo, hosting by Firebase 
