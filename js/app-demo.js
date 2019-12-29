@@ -28,34 +28,43 @@ search.addWidgets([
 search.addWidgets([
 	instantsearch.widgets.hits({
 		container: '#hits',
-		hitsPerPage: 10,
 		templates: {
-			item: document.getElementById('hit-template').innerHTML,
-			empty: "We didn't find any results for the search <em>\"{{query}}\"</em>"
-		}
-	})
-]);
-
-search.addWidgets([
-	instantsearch.widgets.pagination({
-		container: '#pagination'
-	})
-]);
-
-
-search.addWidgets([
-	instantsearch.widgets.rangeSlider({
-		container: '#price-refinement',
-		attributeName: 'price',
-		templates: {
-			header: 'Price'
+			item: `
+				<div>
+					<img src="{{image}}" align="left" alt="{{name}}" />
+					<div class="hit-name">
+						{{#helpers.highlight}}{ "attribute": "name"}{{/helpers.highlight}}
+					</div>
+					<div class="hit-description">
+						{{#helpers.highlight}}{ "attribute": "description"}{{/helpers.highlight}}
+					</div>
+					<div class="hit-price">\${{price}}</div>
+				</div>
+			`,
 		},
-		tooltips: {
-			format: function(rawValue) {
-				return '$' + Math.round(rawValue).toLocaleString();
-			}
-		}
 	})
 ]);
+
+// search.addWidgets([
+// 	instantsearch.widgets.pagination({
+// 		container: '#pagination'
+// 	})
+// ]);
+
+
+// search.addWidgets([
+// 	instantsearch.widgets.rangeSlider({
+// 		container: '#price-refinement',
+// 		attributeName: 'price',
+// 		templates: {
+// 			header: 'Price'
+// 		},
+// 		tooltips: {
+// 			format: function(rawValue) {
+// 				return '$' + Math.round(rawValue).toLocaleString();
+// 			}
+// 		}
+// 	})
+// ]);
 
 search.start();
