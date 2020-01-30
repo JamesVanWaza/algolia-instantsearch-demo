@@ -1,14 +1,13 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Algolia Instantsearch Demo ",
-  "main": "index.html",
+  "main": "'",
   "author": "JamesVanWaza <info@dosbranding.com>",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "firebase": "^7.6.1",
-    "firebase-admin": "^8.9.0"
+    "firebase": "^7.7.0"
   },
   "peerDependencies": {
     "algoliasearch-helper": "^2.28.0",
@@ -17,7 +16,7 @@
   },
   "devDependencies": {
     "algoliasearch": "^3.35.1",
-    "instantsearch.js": "^4.1.1"
+    "instantsearch.js": "^4.2.0"
   },
   "repository": "https://github.com/JamesVanWaza/algolia-instantsearch-demo.git"
 }
