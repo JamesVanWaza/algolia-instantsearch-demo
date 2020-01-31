@@ -1,2 +1,12 @@
 node_modules/
 yarn.lock
+.firebaserc
+public/index.html
+database.rules.json
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+functions/package.json
+functions/index.js
+functions/.eslintrc.json
