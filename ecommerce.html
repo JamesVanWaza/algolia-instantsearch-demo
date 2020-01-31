@@ -6,7 +6,7 @@
     <title>InstantSearch.js Getting started result example</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Work+Sans">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" href="node_modules/">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.1/themes/algolia-min.css">
 </head>
 
 <body>
@@ -16,12 +16,15 @@
 		<a href="ecommerce.html" class="title">Ecommerce</a>
     </header>
     
-    <section class="ais-InstantSearch">
+	<section id="content">
+		<main class="ais-InstantSearch">
         <h2>Wordpress Ecommerce Demo</h2>
 		
 		<aside id="searchbox"></aside>
 		<aside id="tags-list"></aside>
-    </section>
+    </main>
+    
+	</section>
     
     <!-- js -->
 	<script src="node_modules/algoliasearch/dist/algoliasearchLite.min.js"></script>
