@@ -11,3 +11,4 @@ functions/package.json
 functions/index.js
 functions/.eslintrc.json
 .yarn/
+*.cache
