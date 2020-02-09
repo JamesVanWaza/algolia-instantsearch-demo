@@ -1,3 +1,4 @@
+const algoliasearch = require('algoliasearch');
 
 const searchClient = algoliasearch(
 	'latency',
