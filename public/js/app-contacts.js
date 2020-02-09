@@ -14,4 +14,8 @@ const index = client.initIndex('contacts');
 
 const contactsJSON = require('./contacts.json');
 
-index.save
+index.saveObjects(contactsJSON, {
+	autoGenerateObjectIDIfNotExist: true 
+}) . then (({objectIDs}) => {
+	console.log(objectIDs);
+});
