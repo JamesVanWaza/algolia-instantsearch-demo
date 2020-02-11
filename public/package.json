@@ -1,6 +1,6 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Algolia Instantsearch Demo ",
   "main": "index.html",
   "author": "JamesVanWaza <info@dosbranding.com>",
@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "@firebase/functions": "^0.4.32",
-    "instantsearch.js": "^4.2.0"
+    "instantsearch.js": "^4.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "repository": "https://github.com/JamesVanWaza/algolia-instantsearch-demo.git"
 }
