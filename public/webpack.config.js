@@ -1,6 +1,6 @@
 const path = require("path");
 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	//	https://webpack.js.org/configuration/mode/
@@ -28,7 +28,7 @@ module.exports = {
 ////		}
 ////		minimizer: [new UglifyJsPlugin()]
 //	},
-	plugins: [new HtmlWebpackPlugin()],
+//	plugins: [new HtmlWebpackPlugin()],
 	module: {
 		rules: [
 			{
