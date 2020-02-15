@@ -12,3 +12,4 @@ functions/index.js
 functions/.eslintrc.json
 .yarn/
 *.cache
+.babelrc
