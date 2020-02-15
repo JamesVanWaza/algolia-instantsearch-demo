@@ -1,5 +1,7 @@
 const path = require("path");
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
 	//	https://webpack.js.org/configuration/mode/
 	mode: 'development',
@@ -18,7 +20,7 @@ module.exports = {
 	// entry: "./mbuzi/mbuzide.js",
 	devServer: {
 		contentBase: path.join(__dirname, "dist"),
-		port: 9000
+		port: 9001
 	},
 //	optimization: {
 ////		splitChunks: {
@@ -37,7 +39,7 @@ module.exports = {
 					loader: 'babel-loader', 
 					options: {
 						// Supports all the browsers
-						presets: ['@babel/preset-env', '@babel/preset-react']
+						presets: ['@babel/preset-env']
 					}
 				}
 			},
