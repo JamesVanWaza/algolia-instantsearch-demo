@@ -26,6 +26,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@firebase/functions": "^0.4.32",
+    "babel-loader": "^8.0.6",
     "html-webpack-plugin": "^3.2.0",
     "instantsearch.js": "^4.2.0",
     "webpack": "^4.41.6",
