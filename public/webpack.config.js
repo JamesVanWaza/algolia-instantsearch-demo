@@ -14,12 +14,12 @@ module.exports = {
 //		filename: "[name].bundle.js",
 		filename: "webpack-complete.js",
 //		path: path.resolve(__dirname, "public") Can change directory name
-		path: path.resolve(__dirname, "dist") 
+//		path: path.resolve(__dirname, "public") 
 	},
 	// Can change the entry name
 	// entry: "./mbuzi/mbuzide.js",
 	devServer: {
-		contentBase: path.join(__dirname, "dist"),
+		contentBase: path.join(__dirname, "public"),
 		port: 9001
 	},
 //	optimization: {
