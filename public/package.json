@@ -17,6 +17,7 @@
     "instantsearch.css": "^7.4.2"
   },
   "peerDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "algoliasearch-helper": "^2.28.0",
     "eslint": "^6.8.0",
     "jquery": "^3.4.1",
