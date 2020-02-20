@@ -32,9 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  a.title:hover {
-	background-color: purple;
-	color:white;
-	transform: scale(1.1);
+	background-color: #F4BB38;
+	color: white;
 	transition: 0.3s ease-in;
 }
 
@@ -230,4 +229,5 @@ footer {
 	color: white;
 	position: fixed;
 	bottom: 0;
+	padding: 1%;
 }
