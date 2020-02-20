@@ -13,3 +13,4 @@ functions/.eslintrc.json
 .yarn/
 *.cache
 .babelrc
+public/js/firebase-init.js
