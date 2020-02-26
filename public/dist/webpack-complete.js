@@ -91,9 +91,9 @@
   !*** ./src/index.js ***!
   \**********************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("var $ = __webpack_require__(!(function webpackMissingModule() { var e = new Error(\"Cannot find module 'jquery'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));\n\n$('#target').html('Hello Aliens');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open '/Users/jamesvanwazambpro/Dropbox/htdocs/2020/February/algolia-instantsearch-demo/public/src/index.js'\");\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
