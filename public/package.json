@@ -1,0 +1,8 @@
+{
+  "name": "algolia-instantsearch-demo",
+  "version": "1.0.1",
+  "description": "Testing of Algolia with Firebase ",
+  "main": "index.js",
+  "author": "JamesVanWaza <info@dosbranding.com>",
+  "license": "MIT"
+}
