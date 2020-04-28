@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "1.2.8",
+    "version": "1.2.9",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -16,11 +16,11 @@
         "babel-eslint": "^10.1.0",
         "babel-loader": "^8.1.0",
         "css-loader": "^3.5.3",
-        "html-webpack-plugin": "^4.2.0",
+        "html-webpack-plugin": "^4.2.1",
         "instantsearch.css": "^7.4.2",
         "instantsearch.js": "^4.4.0",
         "jquery": "^3.5.0",
-        "style-loader": "^1.2.0",
+        "style-loader": "^1.2.1",
         "uglifyjs-webpack-plugin": "^2.2.0",
         "url-loader": "^4.1.0",
         "webpack": "^4.43.0",
