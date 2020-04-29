@@ -7,11 +7,7 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 module.exports = {
     //	https://webpack.js.org/configuration/mode/
     mode: 'development',
-    entry: "./src/index.js",
-    //	entry: {
-    //		about: './src/about.js',
-    //		contact: './src/contact.js'
-    //	},
+    entry: "./src/js/algolia.js",
     output: {
         //		filename: "[name].bundle.js",
         filename: "main.js",
