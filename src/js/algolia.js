@@ -1,9 +1,6 @@
 /** Stylesheet **/
 import '../scss/style.scss';
 
-/** Algolia CSS **/
-//import instantsearchcss from 'instantsearch.css';
-
 /** Algolia JS **/
 import algoliasearch from 'algoliasearch/lite';
 import instantsearch from 'instantsearch.js';
