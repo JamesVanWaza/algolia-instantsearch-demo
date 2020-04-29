@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -22,7 +22,7 @@
         "html-loader": "^1.1.0",
         "html-webpack-plugin": "^4.2.1",
         "instantsearch.css": "^7.4.2",
-        "instantsearch.js": "^4.4.0",
+        "instantsearch.js": "^4.4.1",
         "jquery": "^3.5.0",
         "node-sass": "^4.14.0",
         "raw-loader": "^4.0.1",
