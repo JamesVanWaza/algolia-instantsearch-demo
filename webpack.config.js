@@ -29,6 +29,12 @@ module.exports = {
             title: 'Algolia Tutorial',
             filename: 'algolia.html',
             template: './src/html-templates/algolia-template.html'
+        }),
+        // Home Page
+        new HtmlWebpackPlugin({
+            title: 'Algolia InstantSearch Demo',
+            filename: 'index.html',
+            template: './src/html-templates/index-template.html'
         })
     ],
     module: {
