@@ -4,6 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
 module.exports = {
     // https://webpack.js.org/configuration/mode/
     mode: 'development',
@@ -26,15 +28,18 @@ module.exports = {
     plugins: [
         // Algolia Page
         new HtmlWebpackPlugin({
-            title: 'Algolia Tutorial',
+            // title: 'Algolia Tutorial',
             filename: 'algolia.html',
             template: './src/html-templates/algolia-template.html'
         }),
         // Home Page
         new HtmlWebpackPlugin({
-            title: 'Algolia InstantSearch Demo',
+            // title: 'Algolia InstantSearch Demo',
             filename: 'index.html',
             template: './src/html-templates/index-template.html'
+        }),
+        new FaviconsWebpackPlugin({
+            logo: './src/images/AID-Favicon003@4x.png'
         })
     ],
     module: {
