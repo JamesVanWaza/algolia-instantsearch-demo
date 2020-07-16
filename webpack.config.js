@@ -9,15 +9,15 @@ const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 module.exports = {
     // https://webpack.js.org/configuration/mode/
     mode: 'development',
-    entry: "./src/js/algolia.js",
+    entry: {
+        algolia: "./src/js/algolia.js",
+        index: "./src/js/index.js"
+    },
     output: {
-        // filename: "[name].bundle.js",
-        filename: "algolia-bundle.js",
+        filename: "[name].bundle.js",
         // path: path.resolve(__dirname, "public") Can change directory name
         path: path.resolve(__dirname, "public")
     },
-    // Can change the entry name
-    // entry: "./mbuzi/mbuzide.js",
     devServer: {
         contentBase: path.join(__dirname, "public"),
         port: 9002
