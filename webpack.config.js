@@ -45,12 +45,11 @@ module.exports = {
     module: {
         rules: [{
                 // Whenever a javascript file is found, babel should run and do not compile node_module files
-                test: /\.js$/,
+                test: /\js$/,
                 exclude: /(node_modules)/,
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        // Supports all the browsers
                         presets: ['@babel/preset-env']
                     }
                 }
