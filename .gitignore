@@ -13,3 +13,4 @@ functions/.eslintrc.json
 public/
 .pnp.js
 .yarnrc.yml
+functions/package-lock.json
