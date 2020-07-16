@@ -28,13 +28,16 @@ module.exports = {
     plugins: [
         // Algolia Page
         new HtmlWebpackPlugin({
-            // title: 'Algolia Tutorial',
             filename: 'algolia.html',
             template: './src/html-templates/algolia-template.html'
         }),
+        // Algolia Ecommerce
+        new HtmlWebpackPlugin({
+            filename: 'ecommerce.html',
+            template: './src/html-templates/ecommerce-template.html'
+        }),
         // Home Page
         new HtmlWebpackPlugin({
-            // title: 'Algolia InstantSearch Demo',
             filename: 'index.html',
             template: './src/html-templates/index-template.html'
         }),
