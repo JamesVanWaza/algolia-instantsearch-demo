@@ -10,7 +10,7 @@ module.exports = {
     // https://webpack.js.org/configuration/mode/
     mode: 'development',
     entry: {
-        algolia: "./src/js/algolia.js",
+        // algolia: "./src/js/algolia.js",
         algoliatwo: "./src/js/algolia-two.js",
         index: "./src/js/index.js"
     },

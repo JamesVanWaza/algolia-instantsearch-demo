@@ -6,13 +6,7 @@ import {
     hits
 } from 'instantsearch.js/es/widgets';
 
-const searchClient = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
-
-const search = instantsearch({
-    indexName: 'testing_manenos_two',
-    searchClient,
-});
-
+const client = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
 
 const index = client.initIndex('TheContacts');
 const contactsJSON = require('../json/contacts.json');
@@ -62,14 +56,28 @@ index.search('jimmie paint').then(({ hits }) => {
     console.log(hits);
 });
 
-// search.addWidgets([
-//     searchBox({
-//         container: "#searchbox"
-//     }),
+search.addWidgets([
+    instantsearch.widgets.configure({
+        hitsPerPage: 10
+    })
+]);
 
-//     hits({
-//         container: "#hits"
-//     })
-// ]);
+search.addWidgets([
+    instantsearch.widgets.searchBox({
+        container: "#search-box",
+        placeholder: 'Search for contacts'
+    }),
+]);
 
-// search.start();
+
+search.addWidgets([
+    instantsearch.widgets.hits({
+        container: "#hits",
+        templates: {
+            item: document.getElementById('hit-template').innerHTML,
+            empty: `We didn't find any results for the search <em>"{{query}}</em?>`
+        }
+    })
+]);
+
+search.start();
