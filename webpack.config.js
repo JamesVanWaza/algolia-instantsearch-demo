@@ -32,6 +32,11 @@ module.exports = {
             filename: 'algolia.html',
             template: './src/html-templates/algolia-template.html'
         }),
+        // Algolia Page
+        new HtmlWebpackPlugin({
+            filename: 'algoliatwo.html',
+            template: './src/html-templates/algoliatwo-template.html'
+        }),
         // Algolia Ecommerce
         new HtmlWebpackPlugin({
             filename: 'ecommerce.html',
