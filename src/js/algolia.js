@@ -1,5 +1,6 @@
 /** Algolia JS **/
-import algoliasearch from 'algoliasearch/lite';
+// import algoliasearch from 'algoliasearch/lite';
+import algoliasearch from 'algoliasearch';
 import instantsearch from 'instantsearch.js';
 import {
     searchBox,
@@ -15,7 +16,7 @@ const search = instantsearch({
 
 search.addWidgets([
     searchBox({
-        container: "#searchbox"
+        container: "#search-box"
     }),
 
     hits({
