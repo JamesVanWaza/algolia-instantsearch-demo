@@ -11,6 +11,7 @@ module.exports = {
     mode: 'development',
     entry: {
         algolia: "./src/js/algolia.js",
+        algoliatwo: "./src/js/algoliatwo.js",
         ecommerce: ".src/js/ecommerce.js",
         index: "./src/js/index.js"
     },
@@ -30,6 +31,11 @@ module.exports = {
         // Algolia Page
         new HtmlWebpackPlugin({
             filename: 'algolia.html',
+            template: './src/html-templates/algolia-template.html'
+        }),
+        // AlgoliaTwo Page
+        new HtmlWebpackPlugin({
+            filename: 'algoliatwo.html',
             template: './src/html-templates/algolia-template.html'
         }),
         // Algolia Ecommerce
