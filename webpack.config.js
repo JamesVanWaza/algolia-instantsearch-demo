@@ -11,6 +11,7 @@ module.exports = {
     mode: 'development',
     entry: {
         algolia: "./src/js/algolia.js",
+        ecommerce: ".src/js/ecommerce.js",
         index: "./src/js/index.js"
     },
     output: {
