@@ -11,8 +11,6 @@ module.exports = {
     mode: 'development',
     entry: {
         algolia: "./src/js/algolia.js",
-        algoliatwo: "./src/js/algolia-two.js",
-        algoliathree: "./src/js/algolia-three.js",
         index: "./src/js/index.js"
     },
     output: {
