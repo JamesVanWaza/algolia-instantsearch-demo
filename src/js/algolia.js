@@ -1,7 +1,10 @@
 /** Algolia JS **/
-// import algoliasearch from 'algoliasearch/lite';
 import algoliasearch from 'algoliasearch';
+
+/** InstantsearchJS */
 import instantsearch from 'instantsearch.js';
+
+/** InstantsearchJS Widgets */
 import {
     searchBox,
     hits
