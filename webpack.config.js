@@ -12,7 +12,7 @@ module.exports = {
     entry: {
         algolia: "./src/js/algolia.js",
         algoliatwo: "./src/js/algoliatwo.js",
-        ecommerce: ".src/js/ecommerce.js",
+        ecommerce: "./src/js/ecommerce.js",
         index: "./src/js/index.js"
     },
     output: {
