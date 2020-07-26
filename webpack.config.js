@@ -10,8 +10,9 @@ module.exports = {
     // https://webpack.js.org/configuration/mode/
     mode: 'development',
     entry: {
-        // algolia: "./src/js/algolia.js",
+        algolia: "./src/js/algolia.js",
         algoliatwo: "./src/js/algolia-two.js",
+        algoliathree: "./src/js/algolia-three.js",
         index: "./src/js/index.js"
     },
     output: {
@@ -31,11 +32,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'algolia.html',
             template: './src/html-templates/algolia-template.html'
-        }),
-        // Algolia Page
-        new HtmlWebpackPlugin({
-            filename: 'algoliatwo.html',
-            template: './src/html-templates/algoliatwo-template.html'
         }),
         // Algolia Ecommerce
         new HtmlWebpackPlugin({
