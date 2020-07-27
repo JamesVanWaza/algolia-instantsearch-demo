@@ -10,20 +10,38 @@ import {
     hits
 } from 'instantsearch.js/es/widgets';
 
-const searchClient = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
+// Replace with your own values
+const searchClient = algoliasearch(
+    'O966BSY3LD',
+    '3170c29718f691b99ff1c00d7317ef61' // search only API key, not admin API key
+);
 
 const search = instantsearch({
-    indexName: 'testing_manenos',
+    indexName: 'TheCars',
     searchClient,
+    routing: true,
 });
 
 search.addWidgets([
-    searchBox({
-        container: "#search-box"
-    }),
+    instantsearch.widgets.configure({
+        hitsPerPage: 10,
+    })
+]);
 
-    hits({
-        container: "#hits"
+search.addWidgets([
+    instantsearch.widgets.searchBox({
+        container: '#search-box',
+        placeholder: 'Search for contacts',
+    })
+]);
+
+search.addWidgets([
+    instantsearch.widgets.hits({
+        container: '#hits',
+        templates: {
+            item: document.getElementById('hit-template').innerHTML,
+            empty: `We didn't find any results for the search <em>"{{query}}"</em>`,
+        },
     })
 ]);
 
