@@ -10,7 +10,7 @@
         "logs": "firebase functions:log"
     },
     "engines": {
-        "node": "10"
+        "node": "12"
     },
     "dependencies": {
         "firebase-admin": "^9.0.0",
@@ -22,7 +22,7 @@
         "firebase-functions-test": "^0.2.1"
     },
     "private": true,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "index.js",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "license": "MIT"
