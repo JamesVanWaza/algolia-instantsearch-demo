@@ -21,7 +21,7 @@
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
-    "instantsearch.css": "^7.4.2",
+    "instantsearch.css": "^7.4.3",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "raw-loader": "^4.0.1",
