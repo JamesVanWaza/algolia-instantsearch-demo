@@ -1,6 +1,6 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Algolia Instantsearch Demo",
   "main": "index.html, main.js",
   "scripts": {
@@ -15,17 +15,17 @@
     "@fortawesome/fontawesome-free": "^5.14.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
-    "bootstrap": "^4.5.1",
-    "css-loader": "^4.2.0",
+    "bootstrap": "^4.5.2",
+    "css-loader": "^4.2.1",
     "favicons-webpack-plugin": "^4.2.0",
     "file-loader": "^6.0.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
-    "instantsearch.css": "^7.4.2",
+    "instantsearch.css": "^7.4.3",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "raw-loader": "^4.0.1",
-    "sass-loader": "^9.0.2",
+    "sass-loader": "^9.0.3",
     "style-loader": "^1.2.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.0",
@@ -34,7 +34,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "algoliasearch": "^4.3.1",
+    "algoliasearch": "^4.4.0",
     "instantsearch.js": "^4.7.0"
   },
   "peerDependencies": {
