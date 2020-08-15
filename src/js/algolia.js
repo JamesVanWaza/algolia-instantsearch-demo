@@ -13,11 +13,11 @@ import {
 // Replace with your own values
 const searchClient = algoliasearch(
     'O966BSY3LD',
-    '3170c29718f691b99ff1c00d7317ef61' // search only API key, not admin API key
+    '6db67900bfa16b4173055f87526117a7' // search only API key, not admin API key
 );
 
 const search = instantsearch({
-    indexName: 'TheCars',
+    indexName: 'TheContacts',
     searchClient,
     routing: true,
 });
