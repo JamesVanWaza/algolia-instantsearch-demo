@@ -1,47 +1,26 @@
 /** Algolia JS **/
-import algoliasearch from 'algoliasearch';
+import algoliasearch from 'algoliasearch/lite';
 
 /** InstantsearchJS */
 import instantsearch from 'instantsearch.js';
 
 /** InstantsearchJS Widgets */
-import {
-    searchBox,
-    hits
-} from 'instantsearch.js/es/widgets';
+import { searchBox, hits } from 'instantsearch.js/es/widgets';
 
-// Replace with your own values
-const searchClient = algoliasearch(
-    'O966BSY3LD',
-    '6db67900bfa16b4173055f87526117a7' // search only API key, not admin API key
-);
+const searchClient = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
 
 const search = instantsearch({
     indexName: 'TheContacts',
     searchClient,
-    routing: true,
 });
 
 search.addWidgets([
-    instantsearch.widgets.configure({
-        hitsPerPage: 10,
-    })
-]);
+    searchBox({
+        container: '#searchbox',
+    }),
 
-search.addWidgets([
-    instantsearch.widgets.searchBox({
-        container: '#search-box',
-        placeholder: 'Search for contacts',
-    })
-]);
-
-search.addWidgets([
-    instantsearch.widgets.hits({
+    hits({
         container: '#hits',
-        templates: {
-            item: document.getElementById('hit-template').innerHTML,
-            empty: `We didn't find any results for the search <em>"{{query}}"</em>`,
-        },
     })
 ]);
 
