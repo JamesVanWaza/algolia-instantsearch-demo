@@ -11,6 +11,7 @@ module.exports = {
     mode: 'development',
     entry: {
         algolia: "./src/js/algolia.js",
+        airline: "./src/js/airline.js",
         index: "./src/js/index.js"
     },
     output: {
@@ -35,6 +36,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: './src/html-templates/index-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'airlines.html',
+            template: './src/html-templates/airlines-template.html'
         }),
         new FaviconsWebpackPlugin({
             logo: './src/images/AID-Favicon003@4x.png'
