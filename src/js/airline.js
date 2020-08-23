@@ -17,11 +17,19 @@ const search = instantsearch({
 search.addWidgets([
     searchBox({
         container: '#searchbox',
-    }),
-
-    hits({
-        container: '#hits',
+        placeholder: 'Search for products',
+        autofocus: true
     })
 ]);
+
+// search.addWidgets([
+//     searchBox({
+//         container: '#searchbox',
+//     }),
+
+//     hits({
+//         container: '#hits',
+//     })
+// ]);
 
 search.start();
