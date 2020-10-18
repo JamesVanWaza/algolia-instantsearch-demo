@@ -16,7 +16,7 @@ const search = instantsearch({
 
 search.addWidgets([
     searchBox({
-        container: '#searchbox',
+        container: '#algolia',
     }),
 
     hits({

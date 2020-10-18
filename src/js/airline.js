@@ -16,20 +16,14 @@ const search = instantsearch({
 
 search.addWidgets([
     searchBox({
-        container: '#searchbox',
-        placeholder: 'Search for products',
+        container: '#airlines',
+        placeholder: 'Search for airlines',
         autofocus: true
+    }),
+
+    hits({
+        container: '#hits',
     })
 ]);
-
-// search.addWidgets([
-//     searchBox({
-//         container: '#searchbox',
-//     }),
-
-//     hits({
-//         container: '#hits',
-//     })
-// ]);
 
 search.start();
