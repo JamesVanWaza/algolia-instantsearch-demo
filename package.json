@@ -1,6 +1,6 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Algolia Instantsearch Demo",
   "main": "index.html, main.js",
   "scripts": {
