@@ -12,9 +12,8 @@ module.exports = {
     entry: {
         index: "./src/js/index.js",
         algolia: "./src/js/algolia.js",
-        airline: { import: "./src/js/airline.js", dependOn: 'shared' },
-        contact: { import: "./src/js/contacts.js", dependOn: 'shared' },
-        shared: "algoliasearch"
+        airline: "./src/js/airline.js",
+        contacts: "./src/js/contacts.js",
     },
     output: {
         filename: "[name].bundle.js",

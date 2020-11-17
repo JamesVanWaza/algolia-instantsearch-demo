@@ -1,3 +1,7 @@
+import './algolia';
+
+const searchClient = algoliasearch('N5OLC87R9A', '4ec613d58d623dba86b7fa0ca70cb116');
+
 const search = instantsearch({
     indexName: 'TheAirlines',
     searchClient,
