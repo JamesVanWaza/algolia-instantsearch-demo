@@ -11,7 +11,6 @@ module.exports = {
     mode: 'development',
     entry: {
         index: "./src/js/index.js",
-        algolia: "./src/js/algolia.js",
         airline: "./src/js/airline.js",
         contacts: "./src/js/contacts.js",
     },
