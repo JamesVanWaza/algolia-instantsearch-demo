@@ -10,9 +10,11 @@ module.exports = {
     // https://webpack.js.org/configuration/mode/
     mode: 'development',
     entry: {
+        index: "./src/js/index.js",
         algolia: "./src/js/algolia.js",
-        airline: "./src/js/airline.js",
-        index: "./src/js/index.js"
+        airline: { import: "./src/js/airline.js", dependOn: 'shared' },
+        contact: { import: "./src/js/contacts.js", dependOn: 'shared' },
+        shared: "algoliasearch"
     },
     output: {
         filename: "[name].bundle.js",
@@ -24,13 +26,16 @@ module.exports = {
         port: 9002
     },
     optimization: {
-        minimizer: [new UglifyJsPlugin()]
+        minimizer: [new UglifyJsPlugin()],
+        splitChunks: {
+            chunks: 'all'
+        }
     },
     plugins: [
         // Algolia Page
         new HtmlWebpackPlugin({
-            filename: 'algolia.html',
-            template: './src/html-templates/algolia-template.html'
+            filename: 'contacts.html',
+            template: './src/html-templates/contacts-template.html'
         }),
         // Home Page
         new HtmlWebpackPlugin({
