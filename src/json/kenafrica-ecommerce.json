@@ -1,0 +1,64 @@
+[{
+        "id": "K001",
+        "price": "$10",
+        "item-name": "Kenyan Scarves"
+    },
+    {
+        "id": "K002",
+        "price": "$20",
+        "item-name": "Belts"
+    },
+    {
+        "id": "K003",
+        "price": "$30",
+        "item-name": "Dashikis"
+    },
+    {
+        "id": "K004",
+        "price": "$35",
+        "item-name": "Table Mats"
+    },
+    {
+        "id": "K005",
+        "price": "$15",
+        "item-name": "Candle Holders",
+        "size": [
+            "small",
+            "medium",
+            "large"
+        ]
+    },
+    {
+        "id": "K006",
+        "price": "$25",
+        "item-name": "Sandals"
+    },
+    {
+        "id": "K007",
+        "price": "$30",
+        "item-name": "Clutch bags"
+    },
+    {
+        "id": "K008",
+        "price": "$35",
+        "item-name": "Handbags"
+    },
+    {
+        "id": "K009",
+        "price": "$5",
+        "item-name": [
+            "Earrings",
+            "Waste Beads"
+        ],
+        "category": "Jewelery"
+    },
+    {
+        "id": "K010",
+        "price": "$40",
+        "item-name": [
+            "Wooden bowls",
+            "3 Legged Stands"
+        ],
+        "category": "Wooden"
+    }
+]
