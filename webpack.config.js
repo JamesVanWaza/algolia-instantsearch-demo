@@ -13,6 +13,7 @@ module.exports = {
         index: "./src/js/index.js",
         airline: "./src/js/airline.js",
         contacts: "./src/js/contacts.js",
+        ecommerce: "./src/js/ecommerce.js"
     },
     output: {
         filename: "[name].bundle.js",
@@ -43,6 +44,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'airlines.html',
             template: './src/html-templates/airlines-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'ecommerce.html',
+            template: './src/html-templates/ecommerce-template.html'
         }),
         new FaviconsWebpackPlugin({
             logo: './src/images/AID-Favicon003@4x.png'
