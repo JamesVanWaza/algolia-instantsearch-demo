@@ -17,3 +17,8 @@ functions/package-lock.json
 src/js/airline.js
 src/js/contacts.js
 src/js/ecommerce.js
+database-debug.log
+firebase-debug.log
+firestore-debug.log
+pubsub-debug.log
+ui-debug.log
