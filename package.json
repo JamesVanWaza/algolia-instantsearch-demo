@@ -14,7 +14,7 @@
         "@babel/preset-env": "^7.12.7",
         "@fortawesome/fontawesome-free": "^5.15.1",
         "babel-eslint": "^10.1.0",
-        "babel-loader": "^8.2.1",
+        "babel-loader": "^8.2.2",
         "bootstrap": "^4.5.3",
         "css-loader": "^5.0.1",
         "favicons-webpack-plugin": "^4.2.0",
