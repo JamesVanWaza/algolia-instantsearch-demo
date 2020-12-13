@@ -1,10 +1,6 @@
-/** SCSS Imports */
-
 @import 'algolia';
 @import 'web-fonts';
-
-/** Google Fonts */
-
+// Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif|Quicksand&display=swap');
 @include google-font {
     @include google-font(Quicksand,
@@ -12,9 +8,7 @@
     @include google-font(Inria Serif); // <= not used just to show it works 
 }
 
-
-/** Font Awesome */
-
+// FontAwesome
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/solid';
@@ -35,49 +29,39 @@ h6 {
     font-family: 'Quicksand', sans-serif;
 }
 
-h1 {
-    color: blueviolet;
-}
-
-h2 {
-    color: orange;
-}
-
-h3 {
-    color: darkseagreen;
-}
-
-h4 {
-    color: cadetblue;
-}
-
-h5 {
-    color: cornflowerblue;
-}
-
-h6 {
-    color: orangered;
-}
-
-#image {
-    background: url("../images/unsplash-tomato@0.1x.jpg");
-    height: 600px;
-    width: 400px;
-}
-
-
-/** Navigation TopBar **/
-
-nav a {
-    color: green;
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-footer {
-    background-color: purple;
-    text-align: center;
-    color: white;
-}
+// h1 {
+//     color: blueviolet;
+// }
+// h2 {
+//     color: orange;
+// }
+// h3 {
+//     color: darkseagreen;
+// }
+// h4 {
+//     color: cadetblue;
+// }
+// h5 {
+//     color: cornflowerblue;
+// }
+// h6 {
+//     color: orangered;
+// }
+// #image {
+//     background: url("../images/unsplash-tomato@0.1x.jpg");
+//     height: 600px;
+//     width: 400px;
+// }
+// /** Navigation TopBar **/
+// nav a {
+//     color: green;
+//     text-decoration: none;
+//     &:hover {
+//         text-decoration: underline;
+//     }
+// }
+// footer {
+//     background-color: purple;
+//     text-align: center;
+//     color: white;
+// }
