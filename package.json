@@ -36,7 +36,7 @@
     "dependencies": {
         "algoliasearch": "^4.8.0",
         "autoprefixer": "^10.1.0",
-        "instantsearch.js": "^4.8.7",
+        "instantsearch.js": "^4.9.1",
         "postcss": "^8.2.1",
         "tailwindcss": "^2.0.2"
     },
