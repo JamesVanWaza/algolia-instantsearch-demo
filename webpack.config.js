@@ -78,7 +78,10 @@ module.exports = {
                     { loader: 'css-loader' },
 
                     // Compiles Sass to CSS
-                    { loader: 'sass-loader' }
+                    { loader: 'sass-loader' },
+
+                    // PostCSS
+                    { loader: 'postcss-loader' }
                 ]
             },
             // Start here for the URL Loader
