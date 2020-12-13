@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+const autoprefixer = require("autoprefixer");
 
 module.exports = {
     // https://webpack.js.org/configuration/mode/
@@ -21,6 +22,7 @@ module.exports = {
         path: path.resolve(__dirname, "public")
     },
     devServer: {
+        open: 'Opera',
         contentBase: path.join(__dirname, "public"),
         port: 9002
     },
@@ -51,7 +53,8 @@ module.exports = {
         }),
         new FaviconsWebpackPlugin({
             logo: './src/images/AID-Favicon003@4x.png'
-        })
+        }),
+
     ],
     module: {
         rules: [{
