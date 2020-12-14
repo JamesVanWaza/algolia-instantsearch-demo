@@ -51,6 +51,10 @@ module.exports = {
             filename: 'ecommerce.html',
             template: './src/html-templates/ecommerce-template.html'
         }),
+        new HtmlWebpackPlugin({
+            filename: 'navbar.html',
+            template: './src/html-templates/navbar-template.html'
+        }),
         new FaviconsWebpackPlugin({
             logo: './src/images/AID-Favicon003@4x.png'
         }),
