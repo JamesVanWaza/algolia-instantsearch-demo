@@ -1,0 +1,61 @@
+a {
+    &:hover {
+        background-color: purple;
+        transition: ease-in 0.3s;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+/** Navigation TopBar **/
+
+nav a {
+    color: green;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: darkseagreen;
+}
+
+h4 {
+    color: cadetblue;
+}
+
+h5 {
+    color: cornflowerblue;
+}
+
+h6 {
+    color: orangered;
+}
+
+
+/** Other */
+
+#image {
+    background: url("../images/unsplash-tomato@0.1x.jpg");
+    height: 600px;
+    width: 400px;
+}
+
+
+/** Footer */
+
+footer {
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
