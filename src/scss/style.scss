@@ -1,30 +1,52 @@
-/** Fontawesome */
+/** SCSS Imports */
+
+@import 'web-fonts';
+@import 'colors';
+
+/** Google Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Quicksand&display=swap');
+@include google-font {
+    @include google-font(Quicksand,
+    700);
+    @include google-font(Inria Serif);
+}
+
+
+/** Font Awesome */
 
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 @import '~@fortawesome/fontawesome-free/scss/fontawesome';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
 
-/** _Imports */
+/** SCSS Starts Here */
 
-@import 'algolia';
-@import 'colors';
-@import 'web-fonts';
-
-/** Google Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap');
-$body-font: 'Crimson Text',
-serif;
-$header-font: 'Source Sans Pro',
-sans-serif;
+html,
 body {
-    font-family: $body-font;
-    font-weight: normal;
+    height: 100%;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-/** Headings */
+body {
+    font-family: 'Inria Serif', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    padding: 20px;
+}
 
 h1,
 h2,
@@ -32,6 +54,184 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: $header-font;
-    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+    background: $royalblue;
+    padding: 5px 20px;
+    a {
+        font-size: 20px;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+
+.logo a,
+.toggle a {
+    font-size: 20px;
+}
+
+.button.secondary {
+    border-bottom: 1px solid #444;
+}
+
+
+/** Mobile Menu */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    order: 1;
+}
+
+.item.button {
+    order: 2;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+
+/** Tablet Menu */
+
+@media all and (min-width: 600px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+    }
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .toggle {
+        order: 2;
+    }
+    .button.secondary {
+        border: 0;
+    }
+    .button a {
+        padding: 7.5px 15px;
+        background: $royalblue;
+        border: 1px invert($color: $white) solid;
+    }
+    .button.secondary a {
+        background: transparent;
+    }
+    .button a:hover {
+        text-decoration: none;
+    }
+    .button:not(.secondary) a:hover {
+        background: #006d6d;
+        border-color: #005959;
+    }
+    .button.secondary a:hover {
+        color: #ddd;
+    }
+}
+
+
+/** Desktop Menu */
+
+@media all and (min-width: 900px) {
+    .item {
+        display: block;
+        width: auto;
+    }
+    .toggle {
+        display: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+    }
+    .button {
+        order: 2;
+    }
+    .menu li {
+        padding: 15px 10px;
+    }
+    .menu li.button {
+        padding-right: 0;
+    }
+}
+
+
+/** Basic Styling */
+
+footer {
+    background-color: $royalblue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+// JS Form Validation - To be refactored
+input:invalid {
+    border-color: #900;
+    background-color: #FDD;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+
+/* This is the style of our error messages */
+
+.error {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 05px 5px;
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
 }
