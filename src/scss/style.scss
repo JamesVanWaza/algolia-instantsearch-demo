@@ -1,7 +1,11 @@
 /** SCSS Imports */
 
+@import 'normalize';
+@import 'algolia';
+@import 'mediaqueries';
 @import 'web-fonts';
 @import 'colors';
+@import 'buttons';
 
 /** Google Fonts */
 
@@ -39,6 +43,10 @@ body {
     flex-direction: column;
 }
 
+button {
+    font-family: 'Inria Serif', serif;
+}
+
 .container {
     flex: 1 0 auto;
 }
@@ -58,7 +66,7 @@ h6 {
 }
 
 nav {
-    background: $royalblue;
+    background: $blueviolet;
     padding: 5px 20px;
     a {
         font-size: 20px;
@@ -94,7 +102,7 @@ a:hover {
 }
 
 .button.secondary {
-    border-bottom: 1px solid #444;
+    border: 1px solid $white;
 }
 
 
@@ -154,17 +162,25 @@ a:hover {
     .button a {
         padding: 7.5px 15px;
         background: $royalblue;
-        border: 1px invert($color: $white) solid;
-    }
-    .button.secondary a {
-        background: transparent;
+        border: 1px $white solid;
+        border-radius: 4px;
     }
     .button a:hover {
         text-decoration: none;
+        background-color: $white;
+        color: $blueviolet;
+        transition: ease-in 0.5s;
     }
-    .button:not(.secondary) a:hover {
-        background: #006d6d;
-        border-color: #005959;
+    .button.secondary a {
+        background: transparent;
+        border-radius: 5px;
+    }
+    .button.secondary a:hover {
+        background-color: $royalblue;
+        color: $white;
+        border-radius: 5px;
+        border: 1px solid $white;
+        transition: ease-in 0.5s;
     }
     .button.secondary a:hover {
         color: #ddd;
@@ -203,7 +219,7 @@ a:hover {
 /** Basic Styling */
 
 footer {
-    background-color: $royalblue;
+    background-color: $blueviolet;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -234,4 +250,11 @@ input:focus:invalid {
 
 .error.active {
     padding: 0.3em;
+}
+
+
+/** Hidden Class */
+
+.hidden {
+    visibility: hidden;
 }
