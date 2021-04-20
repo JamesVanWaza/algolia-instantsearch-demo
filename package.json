@@ -15,7 +15,7 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
-    "css-loader": "^5.2.1",
+    "css-loader": "^5.2.4",
     "favicons-webpack-plugin": "^5.0.2",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
