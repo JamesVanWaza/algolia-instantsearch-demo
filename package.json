@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "1.6.8",
+    "version": "1.6.9",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -10,9 +10,9 @@
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "devDependencies": {
-        "@babel/core": "^7.14.3",
-        "@babel/preset-env": "^7.14.4",
-        "@fortawesome/fontawesome-free": "^5.15.3",
+        "@babel/core": "^7.14.5",
+        "@babel/preset-env": "^7.14.5",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
         "babel-eslint": "^10.1.0",
         "babel-loader": "^8.2.2",
         "css-loader": "^5.2.6",
@@ -23,22 +23,22 @@
         "instantsearch.css": "^7.4.5",
         "jquery": "^3.6.0",
         "node-sass": "^6.0.0",
-        "postcss-loader": "^5.3.0",
+        "postcss-loader": "^6.1.0",
         "raw-loader": "^4.0.2",
-        "sass-loader": "^11.1.1",
+        "sass-loader": "^12.1.0",
         "style-loader": "^2.0.0",
         "uglifyjs-webpack-plugin": "^2.2.0",
         "url-loader": "^4.1.1",
         "webpack": "^5.38.1",
-        "webpack-cli": "^4.7.0",
+        "webpack-cli": "^4.7.2",
         "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "algoliasearch": "^4.9.1",
+        "algoliasearch": "^4.9.2",
         "autoprefixer": "^10.2.6",
         "instantsearch.js": "^4.23.0",
-        "postcss": "^8.3.0",
-        "tailwindcss": "^2.1.2"
+        "postcss": "^8.3.2",
+        "tailwindcss": "^2.1.4"
     },
     "peerDependencies": {
         "popper.js": "^1.16.1"
