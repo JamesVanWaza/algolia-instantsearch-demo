@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
-const autoprefixer = require("autoprefixer");
 
 module.exports = {
     // https://webpack.js.org/configuration/mode/
@@ -54,6 +53,18 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'navbar.html',
             template: './src/html-templates/navbar-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'signin.html',
+            template: './src/html-templates/signin-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'signup.html',
+            template: './src/html-templates/signup-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'successful.html',
+            template: './src/html-templates/successful-template.html'
         }),
         new FaviconsWebpackPlugin({
             logo: './src/images/AID-Favicon003@4x.png'
