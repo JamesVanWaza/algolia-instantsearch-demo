@@ -37,7 +37,7 @@
         "algoliasearch": "^4.9.2",
         "autoprefixer": "^10.2.6",
         "instantsearch.js": "^4.23.0",
-        "postcss": "^8.3.2",
+        "postcss": "^8.3.3",
         "tailwindcss": "^2.1.4"
     },
     "peerDependencies": {
