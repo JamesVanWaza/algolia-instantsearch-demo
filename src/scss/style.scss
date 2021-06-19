@@ -75,7 +75,7 @@ ul {
 }
 
 a {
-    color: white;
+    color: $white;
     text-decoration: none;
 }
 
@@ -239,7 +239,7 @@ input:focus:invalid {
     width: 100%;
     padding: 0;
     font-size: 80%;
-    color: white;
+    color: $white;
     background-color: #900;
     border-radius: 0 05px 5px;
     box-sizing: border-box;
