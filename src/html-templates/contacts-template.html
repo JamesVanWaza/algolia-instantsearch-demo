@@ -20,7 +20,13 @@
             <div id="algolia"></div>
         </header>
 
+        <article>
+            <div id="refinement-list"></div>
+        </article>
+
         <main>
+            <div id="searchbox"></div>
+            <div id="powered-by"></div>
             <div id="hits"></div>
             <div id="pagination"></div>
         </main>
@@ -28,7 +34,7 @@
         <script type="text/html" id="hit-template">
             <div class="hit">
                 <p class="hit-name">
-                    {{#helpers.highlight}}{ "attribute": "firstname" }{{/helpers.highlight}} {{#helpers.highlight}}{ "attribute": "lastname" }{{/helpers.highlight}}
+                    {#helpers.highlight}}{ "attribute": "firstname" }{{/helpers.highlight}} {{#helpers.highlight}}{ "attribute": "lastname" }{{/helpers.highlight}}
                 </p>
             </div>
         </script>
