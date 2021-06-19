@@ -63,6 +63,10 @@ module.exports = {
             template: './src/html-templates/signup-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'stocks.html',
+            template: './src/html-templates/stocks-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'successful.html',
             template: './src/html-templates/successful-template.html'
         }),
