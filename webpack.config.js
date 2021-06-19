@@ -67,7 +67,7 @@ module.exports = {
             template: './src/html-templates/successful-template.html'
         }),
         new FaviconsWebpackPlugin({
-            logo: './src/images/Icon-App-Algolia-InstantSearch-Demo-Circle@4x.png'
+            logo: './src/images/Icon-App-A@4x.png'
         }),
 
     ],
