@@ -13,7 +13,8 @@ module.exports = {
         index: "./src/js/index.js",
         airline: "./src/js/airline.js",
         contacts: "./src/js/contacts.js",
-        ecommerce: "./src/js/ecommerce.js"
+        ecommerce: "./src/js/ecommerce.js",
+        stocks: "./src/js/stocks.js"
     },
     output: {
         filename: "[name].bundle.js",
