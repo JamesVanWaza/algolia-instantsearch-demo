@@ -22,9 +22,9 @@ module.exports = {
         path: path.resolve(__dirname, "public")
     },
     devServer: {
-        open: 'Firefox',
+        open: 'Google Chrome',
         contentBase: path.join(__dirname, "public"),
-        port: 9002
+        port: 2001
     },
     optimization: {
         minimizer: [new UglifyJsPlugin()],
