@@ -56,12 +56,12 @@ module.exports = {
             template: './src/html-templates/navbar-template.html'
         }),
         new HtmlWebpackPlugin({
-            filename: 'signin.html',
-            template: './src/html-templates/signin-template.html'
-        }),
-        new HtmlWebpackPlugin({
             filename: 'signup.html',
             template: './src/html-templates/signup-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'profile.html',
+            template: './src/html-templates/profile-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'stocks.html',
@@ -70,6 +70,14 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'successful.html',
             template: './src/html-templates/successful-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'sign-out.html',
+            template: './src/html-templates/sign-out-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'signin.html',
+            template: './src/html-templates/signin-template.html'
         }),
         new FaviconsWebpackPlugin({
             logo: './src/images/Icon-App-A@4x.png'
