@@ -49,12 +49,31 @@ button {
 
 .container {
     flex: 1 0 auto;
+    margin: 1em;
+}
+
+
+/** WIP on the Flexbox */
+
+
+/**
+main {
+    display: flex;
+}
+
+article {
+    display: flex;
+}
+
+aside {
+    display: flex;
 }
 
 .footer {
     flex-shrink: 0;
     padding: 20px;
 }
+**/
 
 h1,
 h2,
