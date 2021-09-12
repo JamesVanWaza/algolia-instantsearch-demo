@@ -22,8 +22,10 @@ module.exports = {
         path: path.resolve(__dirname, "public")
     },
     devServer: {
-        open: 'Google Chrome',
-        contentBase: path.join(__dirname, "public"),
+        open: {
+            app: 'Google Chrome'
+        },
+        //contentBase: path.join(__dirname, "public"),
         port: 2001
     },
     optimization: {
