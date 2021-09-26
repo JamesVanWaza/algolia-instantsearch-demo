@@ -21,6 +21,7 @@ module.exports = {
         // path: path.resolve(__dirname, "public") Can change directory name
         path: path.resolve(__dirname, "public")
     },
+    target: 'web',
     devServer: {
         open: {
             app: 'Google Chrome'
