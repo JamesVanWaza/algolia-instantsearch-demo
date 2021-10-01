@@ -1,6 +1,6 @@
 {
   "name": "algolia-instantsearch-demo",
-  "version": "1.7.8",
+  "version": "1.7.9",
   "description": "Algolia Instantsearch Demo",
   "main": "index.html, main.js",
   "scripts": {
@@ -30,14 +30,14 @@
     "style-loader": "^3.3.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.1",
-    "webpack": "^5.54.0",
+    "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   },
   "dependencies": {
     "algoliasearch": "^4.10.5",
     "autoprefixer": "^10.3.6",
-    "instantsearch.js": "^4.30.1"
+    "instantsearch.js": "^4.30.2"
   },
   "peerDependencies": {
     "popper.js": "^1.16.1"
