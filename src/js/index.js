@@ -1,11 +1,12 @@
 /** Stylesheet **/
 import '../scss/style.scss';
 
+/** Navigation Menu */
 const toggle = document.querySelector(".toggle");
 const menu = document.querySelector(".menu");
 const items = document.querySelectorAll(".item");
 
-/* Toggle mobile menu */
+/** Toggle mobile menu */
 function toggleMenu() {
     if (menu.classList.contains("active")) {
         menu.classList.remove("active");
@@ -16,7 +17,7 @@ function toggleMenu() {
     }
 }
 
-/* Activate Submenu */
+/** Activate Submenu */
 function toggleItem() {
     if (this.classList.contains("submenu-active")) {
         this.classList.remove("submenu-active");
@@ -28,7 +29,7 @@ function toggleItem() {
     }
 }
 
-/* Close Submenu From Anywhere */
+/** Close Submenu From Anywhere */
 function closeSubmenu(e) {
     let isClickInside = menu.contains(e.target);
 
@@ -36,7 +37,7 @@ function closeSubmenu(e) {
         menu.querySelector(".submenu-active").classList.remove("submenu-active");
     }
 }
-/* Event Listeners */
+/** Event Listeners */
 toggle.addEventListener("click", toggleMenu, false);
 for (let item of items) {
     if (item.querySelector(".submenu")) {
@@ -46,4 +47,30 @@ for (let item of items) {
 }
 document.addEventListener("click", closeSubmenu, false);
 
-/** Footer - WIP **/
+/** Footer */
+document.body.onload = footer;
+
+function footer() {
+    // create a new div element
+    const footerDiv = document.createElement("footer");
+
+    // assign it a class
+    footerDiv.classList.add("footer");
+
+    // gets the current date
+    const copyright = new Date().getFullYear();
+
+    // gets the copyright symbol
+    const favicon = document.createElement("i");
+    favicon.classList.add("fas", "fa-copyright");
+
+    const text = document.createTextNode(" 2020 " + "- " + copyright);
+
+    // add the text node to the newly created div
+    footerDiv.appendChild(favicon);
+    footerDiv.appendChild(text);
+
+    // add the newly created element and its content into the DOM
+    const newDiv = document.getElementById("div");
+    document.body.insertBefore(footerDiv, newDiv);
+}
