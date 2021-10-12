@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -26,7 +26,7 @@
         "postcss": "^8.3.9",
         "postcss-loader": "^6.1.1",
         "raw-loader": "^4.0.2",
-        "sass-loader": "^12.1.0",
+        "sass-loader": "^12.2.0",
         "style-loader": "^3.3.0",
         "uglifyjs-webpack-plugin": "^2.2.0",
         "url-loader": "^4.1.1",
@@ -38,9 +38,6 @@
         "algoliasearch": "^4.10.5",
         "autoprefixer": "^10.3.7",
         "instantsearch.js": "^4.30.2"
-    },
-    "peerDependencies": {
-        "popper.js": "^1.16.1"
     },
     "repository": {
         "type": "git",
