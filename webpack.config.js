@@ -26,6 +26,9 @@ module.exports = {
         open: {
             app: 'Google Chrome'
         },
+        watchFiles: {
+            paths: ['src/']
+        },
         port: 2001
     },
     optimization: {
