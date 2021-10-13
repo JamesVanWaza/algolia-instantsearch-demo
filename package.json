@@ -13,7 +13,6 @@
         "@babel/core": "^7.15.8",
         "@babel/preset-env": "^7.15.8",
         "@fortawesome/fontawesome-free": "^5.15.4",
-        "babel-eslint": "^10.1.0",
         "babel-loader": "^8.2.2",
         "css-loader": "^6.4.0",
         "favicons-webpack-plugin": "^5.0.2",
