@@ -1,53 +1,53 @@
 {
-    "name": "algolia-instantsearch-demo",
-    "version": "1.8.5",
-    "description": "Algolia Instantsearch Demo",
-    "main": "index.html, main.js",
-    "scripts": {
-        "build": "webpack -w",
-        "start": "webpack serve"
-    },
-    "license": "MIT",
-    "author": "JamesVanWaza <info@dosbranding.com>",
-    "devDependencies": {
-        "@babel/core": "^7.16.0",
-        "@babel/preset-env": "^7.16.0",
-        "@fortawesome/fontawesome-free": "^5.15.4",
-        "babel-loader": "^8.2.3",
-        "css-loader": "^6.5.0",
-        "favicons-webpack-plugin": "^5.0.2",
-        "file-loader": "^6.2.0",
-        "html-loader": "^3.0.0",
-        "html-webpack-plugin": "^5.5.0",
-        "instantsearch.css": "^7.4.5",
-        "jquery": "^3.6.0",
-        "node-sass": "^6.0.1",
-        "postcss": "^8.3.11",
-        "postcss-loader": "^6.2.0",
-        "raw-loader": "^4.0.2",
-        "sass-loader": "^12.3.0",
-        "style-loader": "^3.3.1",
-        "uglifyjs-webpack-plugin": "^2.2.0",
-        "url-loader": "^4.1.1",
-        "webpack": "^5.61.0",
-        "webpack-cli": "^4.9.1",
-        "webpack-dev-server": "^4.4.0"
-    },
-    "dependencies": {
-        "algoliasearch": "^4.11.0",
-        "autoprefixer": "^10.4.0",
-        "instantsearch.js": "^4.33.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/JamesVanWaza/algolia-instantsearch-demo.git"
-    },
-    "bugs": {
-        "url": "https://github.com/JamesVanWaza/algolia-instantsearch-demo/issues"
-    },
-    "homepage": "https://github.com/JamesVanWaza/algolia-instantsearch-demo#readme",
-    "keywords": [
-        "Algolia",
-        "Search"
-    ]
+  "name": "algolia-instantsearch-demo",
+  "version": "1.8.6",
+  "description": "Algolia Instantsearch Demo",
+  "main": "index.html, main.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "webpack serve"
+  },
+  "license": "MIT",
+  "author": "JamesVanWaza <info@dosbranding.com>",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "favicons-webpack-plugin": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "instantsearch.css": "^7.4.5",
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "raw-loader": "^4.0.2",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.11.0",
+    "autoprefixer": "^10.4.0",
+    "instantsearch.js": "^4.33.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesVanWaza/algolia-instantsearch-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JamesVanWaza/algolia-instantsearch-demo/issues"
+  },
+  "homepage": "https://github.com/JamesVanWaza/algolia-instantsearch-demo#readme",
+  "keywords": [
+    "Algolia",
+    "Search"
+  ]
 }

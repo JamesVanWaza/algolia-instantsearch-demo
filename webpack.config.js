@@ -2,9 +2,9 @@ const path = require("path");
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
-
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     // https://webpack.js.org/configuration/mode/
@@ -32,7 +32,7 @@ module.exports = {
         port: 2001
     },
     optimization: {
-        minimizer: [new UglifyJsPlugin()],
+        minimizer: [new TerserPlugin()],
         splitChunks: {
             chunks: 'all'
         }
