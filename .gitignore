@@ -22,3 +22,5 @@ firebase-debug.log
 firestore-debug.log
 pubsub-debug.log
 ui-debug.log
+.DS_Store
+src/.DS_Store
