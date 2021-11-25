@@ -2,7 +2,6 @@ node_modules/
 yarn.lock
 .firebaserc
 database.rules.json
-firebase.json
 firestore.indexes.json
 firestore.rules
 storage.rules
