@@ -9,7 +9,6 @@ functions/.eslintrc.json
 .yarn/
 *.cache
 .babelrc
-public/
 .pnp.js
 .yarnrc.yml
 functions/package-lock.json
