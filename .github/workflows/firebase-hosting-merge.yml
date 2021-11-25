@@ -17,4 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STARTBOOTSTRAP_DOSTESTING }}'
           channelId: live
-          projectId: algolia-instantsearch-demo
+          projectId: startbootstrap-dostesting
