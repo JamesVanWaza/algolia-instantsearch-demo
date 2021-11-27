@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "1.9.5",
+    "version": "1.9.6",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -22,8 +22,8 @@
         "instantsearch.css": "^7.4.5",
         "jquery": "^3.6.0",
         "node-sass": "^6.0.1",
-        "postcss": "^8.4.1",
-        "postcss-loader": "^6.2.0",
+        "postcss": "^8.4.4",
+        "postcss-loader": "^6.2.1",
         "raw-loader": "^4.0.2",
         "sass-loader": "^12.3.0",
         "style-loader": "^3.3.1",
@@ -31,7 +31,7 @@
         "url-loader": "^4.1.1",
         "webpack": "^5.64.4",
         "webpack-cli": "^4.9.1",
-        "webpack-dev-server": "^4.5.0"
+        "webpack-dev-server": "^4.6.0"
     },
     "dependencies": {
         "algoliasearch": "^4.11.0",
