@@ -22,3 +22,4 @@ pubsub-debug.log
 ui-debug.log
 .DS_Store
 src/.DS_Store
+firebaserc.txt
