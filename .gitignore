@@ -24,3 +24,4 @@ ui-debug.log
 src/.DS_Store
 firebaserc.txt
 *.icloud
+export.js
