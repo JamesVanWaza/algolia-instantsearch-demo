@@ -4,7 +4,7 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
-name: Algolia Dependabot
+name: "Algolia Dependabot"
 version: 2
 updates:
   # Enable version updates for npm
