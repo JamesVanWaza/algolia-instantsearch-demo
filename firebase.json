@@ -10,8 +10,7 @@
     },
     "hosting": {
         "public": "public",
-        "site": "algolia-instantsearch-demo",
-        "target": "algolia-instantsearch-demo",
+        "target": "ais-web-app",
         "ignore": [
             "firebase.json",
             "**/.*",
