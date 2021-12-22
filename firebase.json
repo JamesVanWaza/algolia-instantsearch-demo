@@ -9,8 +9,8 @@
         ]
     },
     "hosting": {
-        "public": "public",
         "target": "algolia-instantsearch-demo",
+        "public": "public",
         "ignore": [
             "firebase.json",
             "**/.*",
