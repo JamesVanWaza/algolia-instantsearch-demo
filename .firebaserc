@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "startbootstrap-dostesting"
+  },
+  "targets": {
+    "startbootstrap-dostesting": {
+      "hosting": {
+        "aid": [
+          "startbootstrap-dostesting"
+        ]
+      }
+    }
+  }
+}
