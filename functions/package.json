@@ -10,16 +10,16 @@
         "logs": "firebase functions:log"
     },
     "engines": {
-        "node": "16"
+        "node": "17"
     },
     "dependencies": {
-        "eslint": "^8.5.0",
-        "firebase-admin": "^10.0.1",
+        "eslint": "^8.8.0",
+        "firebase-admin": "^10.0.2",
         "firebase-functions": "^3.16.0",
         "save-dev": "^0.0.1-security"
     },
     "private": true,
-    "version": "2.1.1",
+    "version": "2.1.2",
     "main": "index.js",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "license": "MIT",
