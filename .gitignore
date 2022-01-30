@@ -10,7 +10,6 @@ functions/.eslintrc.json
 .babelrc
 .pnp.js
 .yarnrc.yml
-functions/package-lock.json
 src/js/airline.js
 src/js/contacts.js
 src/js/ecommerce.js
