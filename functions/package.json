@@ -10,7 +10,7 @@
         "logs": "firebase functions:log"
     },
     "engines": {
-        "node": "17"
+        "node": "16"
     },
     "dependencies": {
         "eslint": "^8.8.0",
