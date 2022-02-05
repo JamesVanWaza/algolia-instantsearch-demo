@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "startbootstrap-dostesting"
+  },
+  "targets": {
+    "startbootstrap-dostesting": {
+      "hosting": {
+        "aisd": [
+          "algolia-instantsearch-demo"
+        ]
+      }
+    }
+  }
+}

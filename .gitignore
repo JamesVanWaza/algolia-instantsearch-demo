@@ -1,8 +1,6 @@
 node_modules/
 yarn.lock
-.firebaserc
 database.rules.json
-firebase.json
 firestore.indexes.json
 firestore.rules
 storage.rules
@@ -10,10 +8,8 @@ functions/.eslintrc.json
 .yarn/
 *.cache
 .babelrc
-public/
 .pnp.js
 .yarnrc.yml
-functions/package-lock.json
 src/js/airline.js
 src/js/contacts.js
 src/js/ecommerce.js
@@ -24,3 +20,6 @@ pubsub-debug.log
 ui-debug.log
 .DS_Store
 src/.DS_Store
+firebaserc.txt
+*.icloud
+export.js

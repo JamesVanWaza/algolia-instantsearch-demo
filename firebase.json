@@ -1,0 +1,47 @@
+{
+    "firestore": {
+        "rules": "firestore.rules",
+        "indexes": "firestore.indexes.json"
+    },
+    "functions": {
+        "predeploy": [
+            "npm --prefix \"$RESOURCE_DIR\" run lint"
+        ],
+        "source": "functions"
+    },
+    "hosting": {
+        "target": "aisd",
+        "public": "public",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    },
+    "storage": {
+        "rules": "storage.rules"
+    },
+    "emulators": {
+        "functions": {
+            "port": 1001
+        },
+        "firestore": {
+            "port": 2001
+        },
+        "hosting": {
+            "port": 3001
+        },
+        "pubsub": {
+            "port": 4001
+        },
+        "ui": {
+            "enabled": true
+        },
+        "storage": {
+            "port": 9199
+        }
+    },
+    "remoteconfig": {
+        "template": "remoteconfig.template.json"
+    }
+}
