@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -10,11 +10,11 @@
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "devDependencies": {
-        "@babel/core": "^7.16.12",
+        "@babel/core": "^7.17.0",
         "@babel/preset-env": "^7.16.11",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "babel-loader": "^8.2.3",
-        "css-loader": "^6.5.1",
+        "css-loader": "^6.6.0",
         "favicons-webpack-plugin": "^5.0.2",
         "file-loader": "^6.2.0",
         "html-loader": "^3.1.0",
@@ -22,16 +22,16 @@
         "instantsearch.css": "^7.4.5",
         "jquery": "^3.6.0",
         "node-sass": "^7.0.1",
-        "postcss": "^8.4.5",
+        "postcss": "^8.4.6",
         "postcss-loader": "^6.2.1",
         "raw-loader": "^4.0.2",
         "sass-loader": "^12.4.0",
         "style-loader": "^3.3.1",
-        "terser-webpack-plugin": "^5.3.0",
+        "terser-webpack-plugin": "^5.3.1",
         "url-loader": "^4.1.1",
         "webpack": "^5.68.0",
         "webpack-cli": "^4.9.2",
-        "webpack-dev-server": "^4.7.3"
+        "webpack-dev-server": "^4.7.4"
     },
     "dependencies": {
         "algoliasearch": "^4.12.1",
