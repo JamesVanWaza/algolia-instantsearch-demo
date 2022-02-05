@@ -14,7 +14,6 @@ jobs:
       - run: npm ci
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          target: aid
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_STARTBOOTSTRAP_DOSTESTING }}'
           channelId: live
