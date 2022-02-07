@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -12,7 +12,7 @@
     "devDependencies": {
         "@babel/core": "^7.17.0",
         "@babel/preset-env": "^7.16.11",
-        "@fortawesome/fontawesome-free": "^5.15.4",
+        "@fortawesome/fontawesome-free": "^6.0.0",
         "babel-loader": "^8.2.3",
         "css-loader": "^6.6.0",
         "favicons-webpack-plugin": "^5.0.2",
