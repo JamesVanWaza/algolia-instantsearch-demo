@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.0.6",
+    "version": "2.0.7",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -36,7 +36,7 @@
     "dependencies": {
         "algoliasearch": "^4.12.1",
         "autoprefixer": "^10.4.2",
-        "instantsearch.js": "^4.38.0"
+        "instantsearch.js": "^4.38.1"
     },
     "repository": {
         "type": "git",
