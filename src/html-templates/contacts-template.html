@@ -42,25 +42,17 @@
             <div id="refinement-list"></div>
         </main>
 
+        <aside>
+            <div id="hits-per-page"></div>
+            <div id="pagination"></div>
+        </aside>
+
         <article>
             <div id="stats"></div>
             <div id="searchbox"></div>
             <div id="powered-by"></div>
             <div id="hits"></div>
         </article>
-
-        <aside>
-            <div id="hits-per-page"></div>
-            <div id="pagination"></div>
-        </aside>
-
-        <script type="text/html" id="hit-template">
-            <div class="hit">
-                <p class="hit-name">
-                    {#helpers.highlight}}{ "attribute": "firstname" }{{/helpers.highlight}} {{#helpers.highlight}}{ "attribute": "lastname" }{{/helpers.highlight}}
-                </p>
-            </div>
-        </script>
     </section>
 </body>
 
