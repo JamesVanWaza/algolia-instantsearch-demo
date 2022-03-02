@@ -34,7 +34,7 @@
         "webpack-dev-server": "^4.7.4"
     },
     "dependencies": {
-        "algoliasearch": "^4.12.1",
+        "algoliasearch": "^4.12.2",
         "autoprefixer": "^10.4.2",
         "instantsearch.js": "^4.38.0"
     },
