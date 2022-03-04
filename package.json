@@ -14,7 +14,7 @@
         "@babel/preset-env": "^7.16.11",
         "@fortawesome/fontawesome-free": "^5.15.4",
         "babel-loader": "^8.2.3",
-        "css-loader": "^6.6.0",
+        "css-loader": "^6.7.0",
         "favicons-webpack-plugin": "^5.0.2",
         "file-loader": "^6.2.0",
         "html-loader": "^3.1.0",
