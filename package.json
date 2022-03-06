@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -14,7 +14,7 @@
         "@babel/preset-env": "^7.16.11",
         "@fortawesome/fontawesome-free": "^6.0.0",
         "babel-loader": "^8.2.3",
-        "css-loader": "^6.6.0",
+        "css-loader": "^6.7.0",
         "favicons-webpack-plugin": "^5.0.2",
         "file-loader": "^6.2.0",
         "html-loader": "^3.1.0",
@@ -22,21 +22,21 @@
         "instantsearch.css": "^7.4.5",
         "jquery": "^3.6.0",
         "node-sass": "^7.0.1",
-        "postcss": "^8.4.6",
+        "postcss": "^8.4.7",
         "postcss-loader": "^6.2.1",
         "raw-loader": "^4.0.2",
         "sass-loader": "^12.6.0",
         "style-loader": "^3.3.1",
         "terser-webpack-plugin": "^5.3.1",
         "url-loader": "^4.1.1",
-        "webpack": "^5.69.1",
+        "webpack": "^5.70.0",
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.7.4"
     },
     "dependencies": {
-        "algoliasearch": "^4.12.1",
+        "algoliasearch": "^4.12.2",
         "autoprefixer": "^10.4.2",
-        "instantsearch.js": "^4.38.1"
+        "instantsearch.js": "^4.39.1"
     },
     "repository": {
         "type": "git",

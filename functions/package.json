@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-functionsdemo",
-    "version": "2.1.6",
+    "version": "2.1.7",
     "description": "Cloud Functions for Firebase",
     "scripts": {
         "lint": "eslint",
@@ -14,7 +14,7 @@
         "node": "16"
     },
     "dependencies": {
-        "eslint": "^8.9.0",
+        "eslint": "^8.10.0",
         "firebase-admin": "^10.0.2",
         "firebase-functions": "^3.18.1",
         "save-dev": "^0.0.1-security"
