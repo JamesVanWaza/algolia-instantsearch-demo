@@ -1,343 +1,351 @@
-[{
-        "alliance": "Star Alliance",
-        "airline": "Aegean Airlines",
-        "location": "",
-        "id": "001"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Air Canada",
-        "location": "",
-        "id": "002"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Air China",
-        "location": "",
-        "id": "003"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Air India",
-        "location": "",
-        "id": "004"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Air New Zealand",
-        "location": "",
-        "id": "005"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "All Nippon Airways",
-        "location": "",
-        "id": "006"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Asiana Airlines",
-        "location": "",
-        "id": "007"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Austrian Airlines",
-        "location": "",
-        "id": "008"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Avianca",
-        "location": "",
-        "id": "009"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Brussels Airlines",
-        "location": "",
-        "id": "010"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Copa Airlines",
-        "location": "",
-        "id": "011"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Croatia Airlines",
-        "location": "",
-        "id": "012"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "EgyptAir",
-        "location": "",
-        "id": "013"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Ethiopian Airlines",
-        "location": "",
-        "id": "014"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "EVA Air",
-        "location": "",
-        "id": "015"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Lufthansa",
-        "location": "",
-        "id": "016"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Scandinavian Airlines",
-        "location": "",
-        "id": "017"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Shenzen Airlines",
-        "location": "",
-        "id": "018"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Singapore Airlines",
-        "location": "",
-        "id": "019"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "South African Airlines",
-        "location": "",
-        "id": "020"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Swiss International Airlines",
-        "location": "",
-        "id": "021"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "TAP Air Portugal",
-        "location": "",
-        "id": "022"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Thai Airways International",
-        "location": "",
-        "id": "023"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "Turkish Airlines",
-        "location": "",
-        "id": "024"
-    },
-    {
-        "alliance": "Star Alliance",
-        "airline": "United Airlines",
-        "location": "",
-        "id": "025"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "American Airlines",
-        "location": "",
-        "id": "026"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "British Airways",
-        "location": "",
-        "id": "027"
-    }, {
-        "alliance": "Oneworld",
-        "airline": "Cathay Pacific",
-        "location": "",
-        "id": "028"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Finnair",
-        "location": "",
-        "id": "029"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Iberian Airlines",
-        "location": "",
-        "id": "030"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Malaysia Airlines",
-        "location": "",
-        "id": "031"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Qantas",
-        "location": "",
-        "id": "032"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Qatar Airways",
-        "location": "",
-        "id": "033"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Royal Air Maroc",
-        "location": "",
-        "id": "034"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "Royal Jordanian",
-        "location": "",
-        "id": "035"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "S7 Airlines",
-        "location": "",
-        "id": "036"
-    },
-    {
-        "alliance": "Oneworld",
-        "airline": "SriLankan Airlines",
-        "location": "",
-        "id": "037"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Aeroflot",
-        "location": "",
-        "id": "038"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Aerolineas Argentinas",
-        "location": "",
-        "id": "039"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Aeromexico",
-        "location": "",
-        "id": "040"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Air Europa",
-        "location": "",
-        "id": "041"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Air France",
-        "location": "",
-        "id": "042"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Alitalia",
-        "location": "",
-        "id": "043"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "China Airlines",
-        "location": "",
-        "id": "044"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "China Eastern Airlines",
-        "location": "",
-        "id": "045"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Czech Airlines",
-        "location": "",
-        "id": "046"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Delta Airlines",
-        "location": "",
-        "id": "047"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Garuda Indonesia",
-        "location": "",
-        "id": "048"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Kenya Airways",
-        "location": "",
-        "id": "049"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "KLM Royal Dutch Airlines",
-        "location": "",
-        "id": "050"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Korean Air",
-        "location": "",
-        "id": "051"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Middle East Airlines",
-        "location": "",
-        "id": "052"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Middle East Airlines",
-        "location": "",
-        "id": "053"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Saudia",
-        "location": "",
-        "id": "054"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "TAROM",
-        "location": "",
-        "id": "055"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "Vietnam Airlines",
-        "location": "",
-        "id": "056"
-    },
-    {
-        "alliance": "Skyteam",
-        "airline": "XiamenAir",
-        "location": "",
-        "id": "057"
-    }
-
+[
+  {
+    "alliance": "Star Alliance",
+    "airline": "Aegean Airlines",
+    "location": "Athens, Greece",
+    "logo": "https://commons.wikimedia.org/wiki/File:Aegean_Airlines_Logo_2020.svg",
+    "url": "https://en.aegeanair.com/",
+    "id": "001"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Air Canada",
+    "location": "Montreal, Canada",
+    "logo": "https://commons.wikimedia.org/wiki/File:Air_Canada_Logo.svg",
+    "url" :"https://www.aircanada.com/ca/en/aco/home.html#/",
+    "id": "002"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Air China",
+    "location": "Beijing China",
+    "logo": "https://logotyp.us/logo/air-china/",
+    "url": "http://www.airchina.com/index.shtml",
+    
+    "id": "003"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Air India",
+    "location": "",
+    "id": "004"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Air New Zealand",
+    "location": "",
+    "id": "005"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "All Nippon Airways",
+    "location": "",
+    "id": "006"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Asiana Airlines",
+    "location": "",
+    "id": "007"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Austrian Airlines",
+    "location": "",
+    "id": "008"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Avianca",
+    "location": "",
+    "id": "009"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Brussels Airlines",
+    "location": "",
+    "id": "010"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Copa Airlines",
+    "location": "",
+    "id": "011"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Croatia Airlines",
+    "location": "",
+    "id": "012"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "EgyptAir",
+    "location": "",
+    "id": "013"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Ethiopian Airlines",
+    "location": "",
+    "id": "014"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "EVA Air",
+    "location": "",
+    "id": "015"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Lufthansa",
+    "location": "",
+    "id": "016"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Scandinavian Airlines",
+    "location": "",
+    "id": "017"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Shenzen Airlines",
+    "location": "",
+    "id": "018"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Singapore Airlines",
+    "location": "",
+    "id": "019"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "South African Airlines",
+    "location": "",
+    "id": "020"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Swiss International Airlines",
+    "location": "",
+    "id": "021"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "TAP Air Portugal",
+    "location": "",
+    "id": "022"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Thai Airways International",
+    "location": "",
+    "id": "023"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "Turkish Airlines",
+    "location": "",
+    "id": "024"
+  },
+  {
+    "alliance": "Star Alliance",
+    "airline": "United Airlines",
+    "location": "",
+    "id": "025"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "American Airlines",
+    "location": "",
+    "id": "026"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "British Airways",
+    "location": "",
+    "id": "027"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Cathay Pacific",
+    "location": "",
+    "id": "028"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Finnair",
+    "location": "",
+    "id": "029"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Iberian Airlines",
+    "location": "",
+    "id": "030"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Malaysia Airlines",
+    "location": "",
+    "id": "031"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Qantas",
+    "location": "",
+    "id": "032"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Qatar Airways",
+    "location": "",
+    "id": "033"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Royal Air Maroc",
+    "location": "",
+    "id": "034"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "Royal Jordanian",
+    "location": "",
+    "id": "035"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "S7 Airlines",
+    "location": "",
+    "id": "036"
+  },
+  {
+    "alliance": "Oneworld",
+    "airline": "SriLankan Airlines",
+    "location": "",
+    "id": "037"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Aeroflot",
+    "location": "",
+    "id": "038"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Aerolineas Argentinas",
+    "location": "",
+    "id": "039"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Aeromexico",
+    "location": "",
+    "id": "040"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Air Europa",
+    "location": "",
+    "id": "041"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Air France",
+    "location": "",
+    "id": "042"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Alitalia",
+    "location": "",
+    "id": "043"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "China Airlines",
+    "location": "",
+    "id": "044"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "China Eastern Airlines",
+    "location": "",
+    "id": "045"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Czech Airlines",
+    "location": "",
+    "id": "046"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Delta Airlines",
+    "location": "",
+    "id": "047"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Garuda Indonesia",
+    "location": "",
+    "id": "048"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Kenya Airways",
+    "location": "",
+    "id": "049"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "KLM Royal Dutch Airlines",
+    "location": "",
+    "id": "050"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Korean Air",
+    "location": "",
+    "id": "051"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Middle East Airlines",
+    "location": "",
+    "id": "052"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Middle East Airlines",
+    "location": "",
+    "id": "053"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Saudia",
+    "location": "",
+    "id": "054"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "TAROM",
+    "location": "",
+    "id": "055"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "Vietnam Airlines",
+    "location": "",
+    "id": "056"
+  },
+  {
+    "alliance": "Skyteam",
+    "airline": "XiamenAir",
+    "location": "",
+    "id": "057"
+  }
 ]
