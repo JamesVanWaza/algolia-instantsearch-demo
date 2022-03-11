@@ -1,0 +1,38 @@
+[
+    {
+        "que": "What's your name?",
+        "id": "001"
+    },
+    {
+        "que": "Are you single?",
+        "id": "002"
+    },
+    {
+        "que": "When's your birthday and how old are you?",
+        "id": "003"
+    },
+    {
+        "que": "Where do you live?",
+        "id": "004"
+    },
+    {
+        "que": "Where are you born?",
+        "id": "005"
+    },
+    {
+        "que": "What do you like to eat?",
+        "id": "006"
+    },
+    {
+        "que": "Any sports you play?",
+        "id": "007"
+    },
+    {
+        "que": "Any loans?",
+        "id": "008"
+    }, 
+    {
+        "que": "What shows do you enjoy?",
+        "id": "009"
+    }
+]
