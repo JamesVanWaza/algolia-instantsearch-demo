@@ -1,45 +1,57 @@
-[{
+[
+    {
         "id": "001",
-        "make": "Buick"
+        "make": "Buick",
+        "image": ""
     },
     {
         "id": "002",
-        "make": "Cadillac"
+        "make": "Cadillac",
+        "image": ""
     },
     {
         "id": "003",
-        "make": "Chevrolet"
+        "make": "Chevrolet",
+        "image": ""
     },
     {
         "id": "004",
-        "make": "GMC"
+        "make": "GMC",
+        "image": ""
     },
     {
         "id": "005",
-        "make": "Chrysler"
+        "make": "Chrysler",
+        "image": ""
     },
     {
         "id": "006",
-        "make": "Dodge"
+        "make": "Dodge",
+        "image": ""
     },
     {
         "id": "007",
-        "make": "Jeep"
+        "make": "Jeep",
+        "image": ""
     },
     {
         "id": "008",
-        "make": "Ram"
+        "make": "Ram",
+        "image": ""
     },
     {
         "id": "009",
-        "make": "Ford"
+        "make": "Ford",
+        "image": ""
     },
     {
         "id": "010",
-        "make": "Lincoln"
+        "make": "Lincoln",
+        "image": ""
     },
     {
         "id": "011",
-        "make": "Tesla"
+        "make": "Tesla",
+        "image": ""
     }
 ]
