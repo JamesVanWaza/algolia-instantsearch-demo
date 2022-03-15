@@ -22,7 +22,7 @@
         "instantsearch.css": "^7.4.5",
         "jquery": "^3.6.0",
         "node-sass": "^7.0.1",
-        "postcss": "^8.4.6",
+        "postcss": "^8.4.11",
         "postcss-loader": "^6.2.1",
         "raw-loader": "^4.0.2",
         "sass-loader": "^12.4.0",
