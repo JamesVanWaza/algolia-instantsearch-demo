@@ -26,7 +26,8 @@ search.addWidgets([
         templates: {
             item: `
             <article>
-                <h1>{{#helpers.highlight}}{ "attribute": "airline" }{{/helpers.highlight}}</h1>
+                <h1>{{#helpers.highlight}}{ "attribute": "make" }{{/helpers.highlight}}</h1>
+                <img>{{#helpers.highlight}}{ "attribute": "image" }{{/helpers.highlight}}</img>
             </article`
         }
     }),
