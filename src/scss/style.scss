@@ -17,13 +17,6 @@
 }
 
 
-/** Font Awesome */
-
-$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
-@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-@import '~@fortawesome/fontawesome-free/scss/solid';
-@import '~@fortawesome/fontawesome-free/scss/brands';
-
 /** SCSS Starts Here */
 
 html,
@@ -51,7 +44,8 @@ button {
     flex: 1 0 auto;
     margin: 1em;
     border-radius: 10px;
-    border: 5px solid $blueviolet;
+    border: 2px solid $blueviolet;
+    padding: 1px;
 }
 
 
