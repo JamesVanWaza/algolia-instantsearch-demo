@@ -53,6 +53,10 @@ module.exports = {
             template: './src/html-templates/airlines-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'cars.html',
+            template: './src/html-templates/cars-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'ecommerce.html',
             template: './src/html-templates/ecommerce-template.html'
         }),
