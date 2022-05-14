@@ -1,45 +1,49 @@
 [{
-        "id": "001",
+        "id": 1,
         "make": "Buick"
     },
     {
-        "id": "002",
+        "id": 2,
         "make": "Cadillac"
     },
     {
-        "id": "003",
+        "id": 3,
         "make": "Chevrolet"
     },
     {
-        "id": "004",
+        "id": 4,
         "make": "GMC"
     },
     {
-        "id": "005",
+        "id": 5,
         "make": "Chrysler"
     },
     {
-        "id": "006",
+        "id": 6,
         "make": "Dodge"
     },
     {
-        "id": "007",
+        "id": 7,
         "make": "Jeep"
     },
     {
-        "id": "008",
+        "id": 8,
         "make": "Ram"
     },
     {
-        "id": "009",
+        "id": 9,
         "make": "Ford"
     },
     {
-        "id": "010",
+        "id": 10,
         "make": "Lincoln"
     },
     {
-        "id": "011",
+        "id": 11,
         "make": "Tesla"
+    },
+    {
+        "id": 12,
+        "make": "Rivian"
     }
 ]

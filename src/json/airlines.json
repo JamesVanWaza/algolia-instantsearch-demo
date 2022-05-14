@@ -1,0 +1,523 @@
+[{
+        "alliance": "Star Alliance",
+        "airline": "Aegean Airlines",
+        "location": "Athens, Greece",
+        "logo": "https://commons.wikimedia.org/wiki/File:Aegean_Airlines_Logo_2020.svg",
+        "url": "https://en.aegeanair.com/",
+        "dateFounded": 1987,
+        "id": 1
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Air Canada",
+        "location": "Montreal, Canada",
+        "logo": "https://commons.wikimedia.org/wiki/File:Air_Canada_Logo.svg",
+        "url": "https://www.aircanada.com/ca/en/aco/home.html#/",
+        "dateFounded": 1937,
+        "id": 2
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Air China",
+        "location": "Beijing China",
+        "logo": "https://logotyp.us/logo/air-china/",
+        "url": "http://www.airchina.com/index.shtml",
+        "dateFounded": 1988,
+        "id": 3
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Air India",
+        "location": "Mumbai, India",
+        "logo": "https://commons.wikimedia.org/wiki/File:Air_India.svg",
+        "url": "https://www.airindia.in/",
+        "dateFounded": 1932,
+        "id": 4
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Air New Zealand",
+        "location": "Auckland, New Zealand",
+        "logo": "https://commons.wikimedia.org/wiki/File:Air_New_Zealand_logo.svg",
+        "url": "https://www.airnewzealand.com/",
+        "dateFounded": 1940,
+        "id": 5
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "All Nippon Airways",
+        "location": "Tokyo, Japan",
+        "logo": "https://en.m.wikipedia.org/wiki/File:All_Nippon_Airways_Logo.svg",
+        "url": "https://www.ana.co.jp/en/us/",
+        "dateFounded": 1952,
+        "id": 6
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Asiana Airlines",
+        "location": "Seoul, South Korea",
+        "logo": "https://commons.wikimedia.org/wiki/File:Asiana_Airlines-Logo_New.svg",
+        "url": "https://flyasiana.com/C/US/EN/index",
+        "dateFounded": 1988,
+        "id": 7
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Austrian Airlines",
+        "location": "Schwechat, Austria",
+        "logo": "https://commons.wikimedia.org/wiki/File:Austrian_Airlines_Logo_neu.svg",
+        "url": "https://www.austrian.com/us/en/homepage",
+        "dateFounded": 1957,
+        "id": 8
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Avianca",
+        "location": "Bogota, Colombia",
+        "logo": "https://en.wikipedia.org/wiki/File:Avianca_Logo.svg",
+        "url": "https://www.avianca.com/us/en/",
+        "dateFounded": 1919,
+        "id": 9
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Brussels Airlines",
+        "location": "Machelen, Belgium",
+        "logo": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines.svg",
+        "url": "https://www.brusselsairlines.com/",
+        "dateFounded": 2006,
+        "id": 10
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Copa Airlines",
+        "location": "Panama City, Panama",
+        "logo": "https://commons.wikimedia.org/wiki/File:COPA_Airlines_Logo_2011.svg",
+        "url": "https://www.copaair.com/en/web/us",
+        "dateFounded": "1944",
+        "id": 11
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Croatia Airlines",
+        "location": "City of Zagreb, Croatia",
+        "logo": "https://so.wikipedia.org/wiki/File:Croatia_Airlines_Logo.svg",
+        "url": "https://www.croatiaairlines.com/",
+        "dateFounded": 1989,
+        "id": 12
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "EgyptAir",
+        "location": "Cairo, Egypt",
+        "logo": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines.svg",
+        "url": "https://www.egyptair.com/en/Pages/Default.aspx",
+        "dateFounded": 1932,
+        "id": 13
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Ethiopian Airlines",
+        "location": "Addis Ababa, Ethiopia",
+        "logo": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines.svg",
+        "url": "https://www.ethiopianairlines.com/us",
+        "dateFounded": 1945,
+        "id": 14
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "EVA Air",
+        "location": "Luzhu District, Taiwan",
+        "logo": "SEARCH ON GOOGLE",
+        "url": "https://www.evaair.com/en-us/index.html",
+        "dateFounded": 1989,
+        "id": 15
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Lufthansa",
+        "location": "Cologne, Germany",
+        "logo": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+        "url": "https://www.lufthansa.com/us/en/homepage",
+        "dateFounded": 1953,
+        "id": 16
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Scandinavian Airlines",
+        "location": "Stockholm, Sweden",
+        "logo": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_logo.svg",
+        "url": "https://www.flysas.com/",
+        "dateFounded": "August 1, 1946",
+        "id": 17
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Shenzen Airlines",
+        "location": "Shenzen, China",
+        "logo": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines.svg",
+        "url": "https://global.shenzhenair.com/zhair/ibe/common/flightSearch.do?language=en&market=CN",
+        "dateFounded": "November 1992",
+        "id": 18
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Singapore Airlines",
+        "location": "Singapore",
+        "logo": "https://commons.wikimedia.org/wiki/File:Singapore_Airlines_Logo.svg",
+        "url": "https://www.singaporeair.com/en_UK/us/home#/book/bookflight",
+        "dateFounded": "January 28, 1972",
+        "id": 19
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "South African Airlines",
+        "location": "Kempton Park, South Africa",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.flysaa.com/",
+        "dateFounded": 1934,
+        "id": 20
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Swiss International Airlines",
+        "location": "Basel, Switzerland",
+        "logo": "https://commons.wikimedia.org/wiki/File:Swiss_new.svg",
+        "url": "https://www.swiss.com/us/en/homepage",
+        "dateFounded": "March 31, 2002",
+        "id": 21
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "TAP Air Portugal",
+        "location": "Lisbon, Portugal",
+        "logo": "https://commons.wikimedia.org/wiki/File:TAP-Portugal-Logo.svg",
+        "url": "https://www.flytap.com/en-us/",
+        "dateFounded": 1945,
+        "id": 22
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Thai Airways International",
+        "location": "Bangkok, Thailand",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.thaiairways.com/",
+        "dateFounded": "March 29, 1960",
+        "id": 23
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "Turkish Airlines",
+        "location": "Istanbul, Turkey",
+        "logo": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2012.svg",
+        "url": "https://www.turkishairlines.com/",
+        "dateFounded": "May 20, 1993",
+        "id": 24
+    },
+    {
+        "alliance": "Star Alliance",
+        "airline": "United Airlines",
+        "location": "Chicago, Illinois, USA",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.united.com/",
+        "dateFounded": "April 6, 1926",
+        "id": 25
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "American Airlines",
+        "location": "Fort Worth, Texas, USA",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.aa.com/homePage.do",
+        "dateFounded": "April 15, 1926",
+        "id": 26
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "British Airways",
+        "location": "Harmondsworth, United Kingdom",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.britishairways.com/travel/home/public/en_us",
+        "dateFounded": "Mar 31, 1974",
+        "id": 27
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Cathay Pacific",
+        "location": "Hong Kong",
+        "logo": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_Ltd._logo.svg",
+        "url": "https://www.cathaypacific.com/cx/en_US.html",
+        "dateFounded": "September 24, 1946",
+        "id": 28
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Finnair",
+        "location": "Vantaa, Finland",
+        "logo": "https://commons.wikimedia.org/wiki/File:Finnair_Logo.svg",
+        "url": "https://www.finnair.com/",
+        "dateFounded": "November 1, 1923",
+        "id": 29
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Iberian Airlines",
+        "location": "Madrid, Spain",
+        "logo": "https://commons.wikimedia.org/wiki/File:Logotipo_de_Iberia.svg",
+        "url": "https://www.iberia.com/us/",
+        "dateFounded": 2006,
+        "id": 30
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Malaysia Airlines",
+        "location": "Sepang, Malaysia",
+        "logo": "SEARCH ON GOOGLE",
+        "url": "https://www.malaysiaairlines.com/us/en.html",
+        "dateFounded": "May 1, 1947",
+        "id": 31
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Qantas",
+        "location": "Mascot, Australia",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.qantas.com/au/en.html",
+        "dateFounded": "November 16, 1920",
+        "id": 32
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Qatar Airways",
+        "location": "Doha, Qatar",
+        "logo": "https://commons.wikimedia.org/wiki/File:Qatar_Airways_logo.svg",
+        "url": "https://www.qatarairways.com/en-us/homepage.html",
+        "dateFounded": "November 22, 1993",
+        "id": 33
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Royal Air Maroc",
+        "location": "Casablanca, Morocco",
+        "logo": "https://commons.wikimedia.org/wiki/File:Logo_Royal_Air_Maroc.svg",
+        "url": "https://www.royalairmaroc.com/us-en",
+        "dateFounded": "June 28, 1957",
+        "id": 34
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "Royal Jordanian",
+        "location": "Amman, Jordan",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.rj.com/",
+        "dateFounded": "December 9, 1963",
+        "id": 35
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "S7 Airlines",
+        "location": "Novosibirsk, Russia",
+        "logo": "https://commons.wikimedia.org/wiki/File:S7_new_logo.svg",
+        "url": "http://www.s7.ru/",
+        "dateFounded": "May 1957",
+        "id": 36
+    },
+    {
+        "alliance": "Oneworld",
+        "airline": "SriLankan Airlines",
+        "location": "Katunayake, Sri Lanka",
+        "logo": "SEARCH IMAGE ON GOOGLE",
+        "url": "https://www.srilankan.com/en_uk/us",
+        "dateFounded": 1979,
+        "id": 37
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Aeroflot",
+        "location": "Moscow, Russia",
+        "logo": "https://commons.wikimedia.org/wiki/File:Aeroflot_Russian_Airlines_logo_(en).svg",
+        "url": "https://www.aeroflot.com/",
+        "dateFounded": "February 25, 1932",
+        "id": 38
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Aerolineas Argentinas",
+        "location": "Buenos Aires, Argentina",
+        "logo": "https://commons.wikimedia.org/wiki/File:Aerol%C3%ADneas_Argentinas_Logo_2010.svg",
+        "url": "http://www.aerolineas.com.ar/",
+        "dateFounded": 1950,
+        "id": 39
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Aeromexico",
+        "location": "Mexico City, Mexico",
+        "logo": "SEARCH IMAGE ON GOOGLE",
+        "url": "https://aeromexico.com/",
+        "dateFounded": "November 7, 1934",
+        "id": 40
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Air Europa",
+        "location": "Llucmajor, Spain",
+        "logo": "https://commons.wikimedia.org/wiki/File:Air_Europa_Logo_(2015).svg",
+        "url": "https://www.aireuropa.com/us/en/home",
+        "dateFounded": 1986,
+        "id": 41
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Air France",
+        "location": "Tremblay-en-France, France",
+        "logo": "https://commons.wikimedia.org/wiki/File:Air_France_Logo.svg",
+        "url": "http://www.airfrance.com/",
+        "dateFounded": "October 7, 1933",
+        "id": 42
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "ITA Airways",
+        "location": "Rome, Italy",
+        "logo": "https://commons.wikimedia.org/wiki/File:ITA_Airways_Logo.svg",
+        "url": "https://www.itaspa.com/en_en",
+        "dateFounded": "November 11, 2020",
+        "id": 43
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "China Airlines",
+        "location": "Dayuan District, Taiwan",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.china-airlines.com/us/en",
+        "dateFounded": "December 16, 1959",
+        "id": 44
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "China Eastern Airlines",
+        "location": "Minhang District, Shanghai, China",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bb/China_Eastern_logo.svg",
+        "url": "https://us.ceair.com/",
+        "dateFounded": "June 25, 1988",
+        "id": 45
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Czech Airlines",
+        "location": "Prague, Czechia",
+        "logo": "https://commons.wikimedia.org/wiki/File:CzechAirlines-logo.png",
+        "url": "https://www.csa.cz/cz-en/",
+        "dateFounded": "October 6, 1923",
+        "id": 46
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Delta Airlines",
+        "location": "Atlanta, GA, USA",
+        "logo": "https://commons.wikimedia.org/wiki/File:Delta_logo.svg",
+        "url": "https://delta.com/",
+        "dateFounded": "March 2, 1925",
+        "id": 47
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Garuda Indonesia",
+        "location": "Tangerang, Indonesia",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.garuda-indonesia.com/other-countries/en/index",
+        "dateFounded": "January 26, 1949",
+        "id": 48
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Kenya Airways",
+        "location": "Nairobi, Kenya",
+        "logo": "https://commons.wikimedia.org/wiki/File:Kenya_Airways_Logo.svg",
+        "url": "https://www.kenya-airways.com/",
+        "dateFounded": "January 22, 1977",
+        "id": 49
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "KLM Royal Dutch Airlines",
+        "location": "Haarlemmermeer, Netherlands",
+        "logo": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+        "url": "https://www.klm.com/",
+        "dateFounded": "October 7, 1919",
+        "id": 50
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Korean Air",
+        "location": "Seoul, South Korea",
+        "logo": "https://commons.wikimedia.org/wiki/File:KoreanAir_logo.svg",
+        "url": "https://www.koreanair.com/us/en",
+        "dateFounded": 1969,
+        "id": 51
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Middle East Airlines",
+        "location": "Beirut Lebanon",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.mea.com.lb/",
+        "dateFounded": "May 31, 1945",
+        "id": 52
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Saudia",
+        "location": "Jeddah, Saudi Arabia",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.saudia.com/",
+        "dateFounded": "September 1945",
+        "id": 54
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "TAROM",
+        "location": "Otopeni, Ilfov County, Romania",
+        "logo": "https://commons.wikimedia.org/wiki/File:Brussels_Airlines.svg",
+        "url": "https://www.tarom.ro/en",
+        "dateFounded": "September 18, 1954",
+        "id": 55
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "Vietnam Airlines",
+        "location": "Hanoi, Vietnam",
+        "logo": "https://commons.wikimedia.org/wiki/File:Logo_of_Vietnam_Airlines.jpg",
+        "url": "https://www.vietnamairlines.com/us/en/home",
+        "dateFounded": "January 15, 1956",
+        "id": 56
+    },
+    {
+        "alliance": "Skyteam",
+        "airline": "XiamenAir",
+        "location": "Xiamen China",
+        "logo": "SEARCH GOOGLE",
+        "url": "https://www.xiamenair.com/en-us/",
+        "dateFounded": "July 25, 1984",
+        "id": 57
+    },
+    {
+        "alliance": "None",
+        "airline": "Etihad Airways",
+        "location": "Khalifa City, Abu Dhabi, UAE",
+        "logo": "https://commons.wikimedia.org/wiki/File:Etihad-airways-logo.svg",
+        "url": "https://etihad.com/",
+        "dateFounded": "July 2003",
+        "id": 58
+    },
+    {
+        "alliance": "None",
+        "airline": "Emirates",
+        "location": "Dubai, UAE",
+        "logo": "https://commons.wikimedia.org/wiki/File:Emirates_logo.svg",
+        "url": "https://www.emirates.com/us/english/",
+        "dateFounded": "March 25, 1985",
+        "id": 59
+    }
+]
