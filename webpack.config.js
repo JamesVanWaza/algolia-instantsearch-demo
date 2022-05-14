@@ -15,7 +15,8 @@ module.exports = {
         cars: "./src/js/cars.js",
         contacts: "./src/js/contacts.js",
         ecommerce: "./src/js/ecommerce.js",
-        stocks: "./src/js/stocks.js"
+        stocks: "./src/js/stocks.js",
+        onethousandq: "./src/js/onethousandq.js",
     },
     output: {
         filename: "[name].bundle.js",
@@ -60,6 +61,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'ecommerce.html',
             template: './src/html-templates/ecommerce-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'navbar.html',
+            template: './src/html-templates/navbar-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'navbar.html',
