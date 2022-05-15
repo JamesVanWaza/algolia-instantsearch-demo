@@ -12,6 +12,7 @@ module.exports = {
     entry: {
         index: "./src/js/index.js",
         airline: "./src/js/airline.js",
+        bills: "./src/js/bills.js",
         cars: "./src/js/cars.js",
         contacts: "./src/js/contacts.js",
         ecommerce: "./src/js/ecommerce.js",
@@ -55,6 +56,10 @@ module.exports = {
             template: './src/html-templates/airlines-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'bills.html',
+            template: './src/html-templates/bills-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'cars.html',
             template: './src/html-templates/cars-template.html'
         }),
@@ -69,6 +74,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'navbar.html',
             template: './src/html-templates/navbar-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'onethousandq.html',
+            template: './src/html-templates/onethousandq-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'signup.html',
