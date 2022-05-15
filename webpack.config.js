@@ -16,6 +16,7 @@ module.exports = {
         cars: "./src/js/cars.js",
         contacts: "./src/js/contacts.js",
         ecommerce: "./src/js/ecommerce.js",
+        soccer: "./src/js/soccer.js",
         stocks: "./src/js/stocks.js",
         onethousandq: "./src/js/onethousandq.js",
     },
@@ -82,6 +83,10 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'signup.html',
             template: './src/html-templates/signup-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'soccer.html',
+            template: './src/html-templates/soccer-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'profile.html',
