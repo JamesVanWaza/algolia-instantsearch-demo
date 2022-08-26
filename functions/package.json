@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-functionsdemo",
-    "version": "2.2.5",
+    "version": "2.2.6",
     "description": "Cloud Functions for Firebase",
     "scripts": {
         "lint": "eslint",
@@ -28,7 +28,7 @@
         "Functions"
     ],
     "devDependencies": {
-        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-promise": "^6.0.1",
         "firebase-functions-test": "^2.3.0"
     }
 }
