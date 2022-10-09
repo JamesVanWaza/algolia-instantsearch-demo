@@ -1,31 +1,37 @@
 [{
         "billname": "Apple Music",
-        "monthlyAmt": "$4.99",
+        "price": "$4.99",
         "url": "https://apple.com",
         "id": 1
     },
     {
         "billname": "Apple iCloud 2TB",
-        "monthlyAmt": "$9.99",
+        "price": "$9.99",
         "url": "https://apple.com",
         "id": 2
     },
     {
         "billname": "TMobile",
-        "monthlyAmt": "$300",
+        "price": "$300",
         "url": "https://t-mobile.com",
         "id": 3
     },
     {
         "billname": "Water",
-        "monthlyAmt": "$300",
+        "price": "$300",
         "url": "https://bit.ly/3sYfPf9",
         "id": 4
     },
     {
         "billname": "Nationwide Insurance",
-        "monthlyAmt": "$300",
+        "price": "$300",
         "url": "https://nationwide.com/personal/login",
         "id": 5
+    },
+    {
+        "billname": "Truist Mortgage",
+        "price": "$3000",
+        "url": "https://www.truist.com/#",
+        "id": 6
     }
 ]

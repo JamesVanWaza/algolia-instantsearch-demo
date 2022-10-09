@@ -1,5 +1,6 @@
 [{
-        "id": "KE001",
+        "companyID": "KE001",
+        "id": 1,
         "stockName": "Eaagds Limited",
         "symbol": "",
         "url": "",
@@ -42,8 +43,10 @@
         "id": "KE006",
         "stockName": "Sasini Ltd",
         "symbol": "",
+        "url": "",
         "image": "",
-        "url": ""
+        "category": "Agricultural"
+
     },
     {
         "id": "KE007",
