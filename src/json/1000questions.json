@@ -49,5 +49,95 @@
         "id": 10,
         "que": "Where's your hometown?",
         "queID": "1K010"
+    },
+    {
+        "id": 11,
+        "que": "What normally brightens your day?",
+        "queID": "1K011"
+    },
+    {
+        "id": 12,
+        "que": "What is that one thing that you are thankful about in life?",
+        "queID": "1K012"
+    },
+    {
+        "id": 13,
+        "que": "Which part of your body amazes you the most?",
+        "queID": "1K013"
+    },
+    {
+        "id": 14,
+        "que": "What do you love the most about your current job?",
+        "queID": "1K014"
+    },
+    {
+        "id": 15,
+        "que": "Which country would you like to visit or have visited?",
+        "queID": "1K015"
+    },
+    {
+        "id": 16,
+        "que": "Are you an early riser or night owl?",
+        "queID": "1K016"
+    },
+    {
+        "id": 17,
+        "que": "What traits do you always look for in a person?",
+        "queID": "1K017"
+    },
+    {
+        "id": 18,
+        "que": "How do you spend your free time?",
+        "queID": "1K018"
+    },
+    {
+        "id": 19,
+        "que": "Whats your talent?",
+        "queID": "1K019"
+    },
+    {
+        "id": 20,
+        "que": "Which state in the US would you like to visit?",
+        "queID": "1K020"
+    },
+    {
+        "id": 21,
+        "que": "What is your favorite genre of music?",
+        "queID": "1K021"
+    },
+    {
+        "id": 22,
+        "que": "What inspires you?",
+        "queID": "1K022"
+    },
+    {
+        "id": 23,
+        "que": "Between texting and phone calls which one do you prefer?",
+        "queID": "1K023"
+    },
+    {
+        "id": 24,
+        "que": "What's your religion?",
+        "queID": "1K024"
+    },
+    {
+        "id": 25,
+        "que": "How often do you work out?",
+        "queID": "1K025"
+    },
+    {
+        "id": 26,
+        "que": "What breakfast do you want I make for you?",
+        "queID": "1K026"
+    },
+    {
+        "id": 27,
+        "que": "Do you prefer electric or gas cars?",
+        "queID": "1K027"
+    },
+    {
+        "id": 28,
+        "que": "How's your relationship with your siblings?",
+        "queID": "1K028"
     }
 ]
