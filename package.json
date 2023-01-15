@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -10,18 +10,18 @@
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "devDependencies": {
-        "@babel/core": "^7.19.3",
+        "@babel/core": "^7.20.12",
         "@babel/preset-env": "^7.19.3",
         "@fortawesome/fontawesome-free": "^6.2.0",
-        "babel-loader": "^8.2.5",
+        "babel-loader": "^9.1.2",
         "css-loader": "^6.7.1",
-        "favicons-webpack-plugin": "^5.0.2",
+        "favicons-webpack-plugin": "^6.0.0",
         "file-loader": "^6.2.0",
         "html-loader": "^4.2.0",
         "html-webpack-plugin": "^5.5.0",
-        "instantsearch.css": "^7.4.5",
-        "node-sass": "^7.0.3",
-        "postcss": "^8.4.17",
+        "instantsearch.css": "^8.0.0",
+        "node-sass": "^8.0.0",
+        "postcss": "^8.4.21",
         "postcss-loader": "^7.0.1",
         "raw-loader": "^4.0.2",
         "sass-loader": "^13.1.0",
@@ -29,13 +29,13 @@
         "terser-webpack-plugin": "^5.3.6",
         "url-loader": "^4.1.1",
         "webpack": "^5.74.0",
-        "webpack-cli": "^4.10.0",
+        "webpack-cli": "^5.0.1",
         "webpack-dev-server": "^4.11.1"
     },
     "dependencies": {
         "algoliasearch": "^4.14.2",
         "autoprefixer": "^10.4.12",
-        "instantsearch.js": "^4.47.0"
+        "instantsearch.js": "^4.49.4"
     },
     "repository": {
         "type": "git",
