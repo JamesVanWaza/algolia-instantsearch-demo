@@ -1,9 +1,5 @@
 node_modules/
 yarn.lock
-database.rules.json
-firestore.indexes.json
-firestore.rules
-storage.rules
 functions/.eslintrc.json
 .yarn/
 *.cache
