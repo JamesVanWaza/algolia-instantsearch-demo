@@ -7,7 +7,7 @@ import instantsearch from 'instantsearch.js';
 /** InstantsearchJS Widgets */
 import { searchBox, hits, refinementList, stats, hitsPerPage } from 'instantsearch.js/es/widgets';
 
-const searchClient = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
+const searchClient = algoliasearch('N5OLC87R9A', '4ec613d58d623dba86b7fa0ca70cb116');
 
 const search = instantsearch({
     indexName: 'TheContacts',
