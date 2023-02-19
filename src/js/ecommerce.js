@@ -10,7 +10,7 @@ import { searchBox, hits } from 'instantsearch.js/es/widgets';
 const searchClient = algoliasearch('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');
 
 const search = instantsearch({
-    indexName: 'kenafrica_ecommerce',
+    indexName: 'demo_ecommerce',
     searchClient,
 });
 
