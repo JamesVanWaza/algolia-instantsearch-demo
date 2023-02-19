@@ -180,7 +180,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algo
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_algoliasearch-lite_umd_js-node_modules_instantsearch_-cb3ddf","vendors-node_modules_instantsearch_js_es_widgets_refinement-list_refinement-list_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js"], () => (__webpack_require__("./src/js/contacts.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_algoliasearch-lite_umd_js-node_modules_instantsearch_-50985f","vendors-node_modules_instantsearch_js_es_lib_utils_isSpecialClick_js-node_modules_instantsear-bfa711","vendors-node_modules_instantsearch_js_es_widgets_refinement-list_refinement-list_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js"], () => (__webpack_require__("./src/js/contacts.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
