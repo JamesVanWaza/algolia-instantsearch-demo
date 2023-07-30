@@ -101,44 +101,44 @@ module.exports = {
     ],
     module: {
         rules: [{
-                // Whenever a javascript file is found, babel should run and do not compile node_module files
-                test: /\js$/,
-                exclude: /(node_modules)/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
+            // Whenever a javascript file is found, babel should run and do not compile node_module files
+            test: /\js$/,
+            exclude: /(node_modules)/,
+            use: {
+                loader: 'babel-loader',
+                options: {
+                    presets: ['@babel/preset-env']
                 }
-            },
-            {
-                test: /\.s[ac]ss$/i,
-                use: [
-                    // Creates `style` nodes from JS Strings
-                    { loader: 'style-loader' },
-
-                    // Translates CSS into CommonJS
-                    { loader: 'css-loader' },
-
-                    // Compiles Sass to CSS
-                    { loader: 'sass-loader' },
-
-                    // PostCSS
-                    { loader: 'postcss-loader' }
-                ]
-            },
-            {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
-            },
-            {
-                test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                type: 'asset/resource',
-            },
-            {
-                test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
-                use: 'file-loader',
             }
+        },
+        {
+            test: /\.s[ac]ss$/i,
+            use: [
+                // Creates `style` nodes from JS Strings
+                { loader: 'style-loader' },
+
+                // Translates CSS into CommonJS
+                { loader: 'css-loader' },
+
+                // Compiles Sass to CSS
+                { loader: 'sass-loader' },
+
+                // PostCSS
+                { loader: 'postcss-loader' }
+            ]
+        },
+        {
+            test: /\.(png|svg|jpg|jpeg|gif)$/i,
+            type: 'asset/resource',
+        },
+        {
+            test: /\.(woff|woff2|eot|ttf|otf)$/i,
+            type: 'asset/resource',
+        },
+        {
+            test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
+            use: 'asset/resource',
+        }
         ]
     }
 };
