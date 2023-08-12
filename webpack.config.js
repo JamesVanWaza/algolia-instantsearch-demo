@@ -134,7 +134,7 @@ module.exports = {
         },
         {
             test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
-            use: 'asset/resource',
+            type: 'asset/resource',
         }
         ]
     }
