@@ -75,6 +75,10 @@ module.exports = {
             template: './src/html-templates/signup-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'onethousandquestions.html',
+            template: './src/html-templates/onethousandquestions-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'profile.html',
             template: './src/html-templates/profile-template.html'
         }),
