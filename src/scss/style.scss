@@ -1,11 +1,15 @@
 /** SCSS Imports */
 @import 'algolia';
-@import 'mediaqueries';
-@import 'colors';
-@import 'buttons';
+@import 'custom';
 
 /** Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Quicksand:wght@500&display=swap');
+
+/** Font Awesome */
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 
 /** SCSS Starts Here */
 html,
@@ -29,15 +33,6 @@ button {
     font-family: 'Quicksand', sans-serif;
 }
 
-.container {
-    flex: 1 0 auto;
-    margin: 1em;
-    border-radius: 10px;
-    border: 2px solid $blueviolet;
-    padding: 1px;
-}
-
-
 h1,
 h2,
 h3,
@@ -48,7 +43,7 @@ h6 {
 }
 
 nav {
-    background: $blueviolet;
+    background: $primary;
     padding: 5px 20px;
 
     a {
@@ -56,300 +51,8 @@ nav {
     }
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    color: $white;
-    text-decoration: none;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
-.logo a:hover {
-    text-decoration: none;
-}
-
-.menu li {
-    font-size: 16px;
-    padding: 15px 5px;
-    white-space: nowrap;
-}
-
-.logo a,
-.toggle a {
-    font-size: 20px;
-}
-
-.button.secondary {
-    border: 1px solid $white;
-}
-
-
 /** Basic Styling */
-
-footer {
-    background-color: $blueviolet;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-}
-
-// JS Form Validation - To be refactored
-input:invalid {
-    border-color: #900;
-    background-color: #FDD;
-}
-
-input:focus:invalid {
-    outline: none;
-}
-
-
-/* This is the style of our error messages */
-
-.error {
-    width: 100%;
-    padding: 0;
-    font-size: 80%;
+.footer {
+    background-color: $primary;
     color: $white;
-    background-color: #900;
-    border-radius: 0 05px 5px;
-    box-sizing: border-box;
-}
-
-.error.active {
-    padding: 0.3em;
-}
-
-
-/** Hidden Class */
-
-.hidden {
-    visibility: hidden;
-}
-
-
-/** Navbar */
-
-nav {
-    background: $blueviolet;
-    padding: 0 15px;
-}
-
-a {
-    color: $white;
-    text-decoration: none;
-}
-
-.menu,
-.submenu {
-    list-style-type: none;
-}
-
-.logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-}
-
-.item {
-    padding: 10px;
-
-    &.button {
-        padding: 9px 5px;
-    }
-
-    &:not(.button) a:hover,
-    a:hover::after {
-        color: $white;
-    }
-}
-
-
-/* Mobile menu */
-
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-
-    li {
-        a {
-            display: block;
-            padding: 15px 5px;
-        }
-
-        &.subitem a {
-            padding: 15px;
-        }
-    }
-}
-
-.toggle {
-    order: 1;
-    font-size: 20px;
-}
-
-.item {
-    &.button {
-        order: 2;
-    }
-
-    order: 3;
-    width: 100%;
-    text-align: center;
-    display: none;
-}
-
-.active .item {
-    display: block;
-}
-
-.button.secondary {
-    /* divider between buttons and menu links */
-    border-bottom: 1px #444 solid;
-}
-
-
-/* Submenu up from mobile screens */
-.submenu {
-    display: none;
-}
-
-.submenu-active .submenu {
-    display: block;
-}
-
-.has-submenu {
-    i {
-        font-size: 12px;
-    }
-
-    >a::after {
-        font-family: "Font Awesome 5 Free";
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 900;
-        content: "\f078";
-        color: $white;
-        padding-left: 5px;
-    }
-}
-
-.subitem a {
-    padding: 10px 15px;
-}
-
-.submenu-active {
-    background-color: inverse($white);
-    border-radius: 3px;
-}
-
-
-/* Tablet menu */
-@media all and (min-width: 700px) {
-    .menu {
-        justify-content: center;
-    }
-
-    .logo {
-        flex: 1;
-    }
-
-    .item.button {
-        width: auto;
-        order: 1;
-        display: block;
-    }
-
-    .toggle {
-        flex: 1;
-        text-align: right;
-        order: 2;
-    }
-
-    /* Button up from tablet screen */
-    .menu li.button a {
-        padding: 10px 15px;
-        margin: 5px 0;
-    }
-
-    .button {
-        a {
-            background: $royalblue;
-            border: 3px $royalblue solid;
-        }
-
-        &.secondary {
-            border: 0;
-
-            a {
-                background: transparent;
-                border-radius: 27px;
-                border: 3px $royalblue solid;
-
-                &:hover {
-                    background: $safron;
-                    color: $white;
-                    border: 3px $white solid;
-                }
-            }
-        }
-
-        a:hover {
-            text-decoration: none;
-        }
-
-        &:not(.secondary) a:hover {
-            background: $blueviolet;
-            border-color: $white;
-            color: $white;
-        }
-    }
-}
-
-
-/* Desktop menu */
-
-@media all and (min-width: 960px) {
-    .menu {
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        background: none;
-    }
-
-    .logo {
-        order: 0;
-    }
-
-    .item {
-        order: 1;
-        position: relative;
-        display: block;
-        width: auto;
-    }
-
-    .button {
-        order: 2;
-    }
-
-    .submenu-active .submenu {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 68px;
-        background: #111;
-    }
-
-    .toggle {
-        display: none;
-    }
-
-    .submenu-active {
-        border-radius: 0;
-    }
 }
