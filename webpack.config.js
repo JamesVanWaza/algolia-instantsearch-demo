@@ -12,6 +12,7 @@ module.exports = {
     entry: {
         index: "./src/js/index.js",
         airline: "./src/js/airline.js",
+        app: './src/js/app.js',
         cars: "./src/js/cars.js",
         contacts: "./src/js/contacts.js",
         ecommerce: "./src/js/ecommerce.js",
