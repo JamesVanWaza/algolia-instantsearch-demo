@@ -24,18 +24,18 @@ search.addWidgets([
         container: '#hits',
         templates: {
             item: `
-                <article>
-                    <h1>{{#helpers.highlight}}{ "attribute": "firstname"}{{/helpers.highlight}} 
-                    {{#helpers.highlight}}{ "attribute": "lastname" }{{/helpers.highlight}}</h1>
-                    <p>{{#helpers.highlight}}{ "attribute": "company" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "email" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "phone" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "address" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "city" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "postcode" }{{/helpers.highlight}}</p>
-                    <p>{{#helpers.highlight}}{ "attribute": "country" }{{/helpers.highlight}}</p>
-                </article>
-            `
+                    <article>
+                        <h1>{{#helpers.highlight}}{ "attribute": "firstname"}{{/helpers.highlight}} 
+                        {{#helpers.highlight}}{ "attribute": "lastname" }{{/helpers.highlight}}</h1>
+                        <p>{{#helpers.highlight}}{ "attribute": "company" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "email" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "phone" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "address" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "city" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "postcode" }{{/helpers.highlight}}</p>
+                        <p>{{#helpers.highlight}}{ "attribute": "country" }{{/helpers.highlight}}</p>
+                    </article>
+                `
         }
     }),
 
