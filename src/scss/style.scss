@@ -1,24 +1,13 @@
 /** SCSS Imports */
-
-@import 'normalize';
 @import 'algolia';
 @import 'mediaqueries';
-@import 'web-fonts';
 @import 'colors';
 @import 'buttons';
 
 /** Google Fonts */
-
-@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Quicksand&display=swap');
-@include google-font {
-    @include google-font(Quicksand,
-    700);
-    @include google-font(Inria Serif);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Quicksand:wght@500&display=swap');
 
 /** SCSS Starts Here */
-
 html,
 body {
     height: 100%;
@@ -37,7 +26,7 @@ body {
 }
 
 button {
-    font-family: 'Inria Serif', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container {
@@ -48,28 +37,6 @@ button {
     padding: 1px;
 }
 
-
-/** WIP on the Flexbox */
-
-
-/**
-main {
-    display: flex;
-}
-
-article {
-    display: flex;
-}
-
-aside {
-    display: flex;
-}
-
-.footer {
-    flex-shrink: 0;
-    padding: 20px;
-}
-**/
 
 h1,
 h2,
@@ -83,6 +50,7 @@ h6 {
 nav {
     background: $blueviolet;
     padding: 5px 20px;
+
     a {
         font-size: 20px;
     }
@@ -95,10 +63,10 @@ ul {
 a {
     color: $white;
     text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .logo a:hover {
@@ -189,9 +157,11 @@ a {
 
 .item {
     padding: 10px;
+
     &.button {
         padding: 9px 5px;
     }
+
     &:not(.button) a:hover,
     a:hover::after {
         color: $white;
@@ -206,11 +176,13 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
     li {
         a {
             display: block;
             padding: 15px 5px;
         }
+
         &.subitem a {
             padding: 15px;
         }
@@ -226,6 +198,7 @@ a {
     &.button {
         order: 2;
     }
+
     order: 3;
     width: 100%;
     text-align: center;
@@ -243,7 +216,6 @@ a {
 
 
 /* Submenu up from mobile screens */
-
 .submenu {
     display: none;
 }
@@ -256,6 +228,7 @@ a {
     i {
         font-size: 12px;
     }
+
     >a::after {
         font-family: "Font Awesome 5 Free";
         font-size: 12px;
@@ -278,40 +251,47 @@ a {
 
 
 /* Tablet menu */
-
 @media all and (min-width: 700px) {
     .menu {
         justify-content: center;
     }
+
     .logo {
         flex: 1;
     }
+
     .item.button {
         width: auto;
         order: 1;
         display: block;
     }
+
     .toggle {
         flex: 1;
         text-align: right;
         order: 2;
     }
+
     /* Button up from tablet screen */
     .menu li.button a {
         padding: 10px 15px;
         margin: 5px 0;
     }
+
     .button {
         a {
             background: $royalblue;
             border: 3px $royalblue solid;
         }
+
         &.secondary {
             border: 0;
+
             a {
                 background: transparent;
                 border-radius: 27px;
                 border: 3px $royalblue solid;
+
                 &:hover {
                     background: $safron;
                     color: $white;
@@ -319,9 +299,11 @@ a {
                 }
             }
         }
+
         a:hover {
             text-decoration: none;
         }
+
         &:not(.secondary) a:hover {
             background: $blueviolet;
             border-color: $white;
@@ -339,18 +321,22 @@ a {
         flex-wrap: nowrap;
         background: none;
     }
+
     .logo {
         order: 0;
     }
+
     .item {
         order: 1;
         position: relative;
         display: block;
         width: auto;
     }
+
     .button {
         order: 2;
     }
+
     .submenu-active .submenu {
         display: block;
         position: absolute;
@@ -358,9 +344,11 @@ a {
         top: 68px;
         background: #111;
     }
+
     .toggle {
         display: none;
     }
+
     .submenu-active {
         border-radius: 0;
     }
