@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -9,6 +9,14 @@
     },
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.4.2",
+        "@popperjs/core": "^2.11.8",
+        "algoliasearch": "^4.19.1",
+        "bootstrap": "^5.3.1",
+        "firebase": "^10.2.0",
+        "instantsearch.js": "^4.56.9"
+    },
     "devDependencies": {
         "@babel/core": "^7.22.10",
         "@babel/preset-env": "^7.22.10",
@@ -25,14 +33,6 @@
         "webpack": "^5.88.2",
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.0"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "^6.4.2",
-        "@popperjs/core": "^2.11.8",
-        "algoliasearch": "^4.19.1",
-        "bootstrap": "^5.3.1",
-        "firebase": "^10.1.0",
-        "instantsearch.js": "^4.56.9"
     },
     "repository": {
         "type": "git",
