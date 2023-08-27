@@ -2,7 +2,7 @@
     "name": "algolia-instantsearch-demo",
     "version": "2.2.7",
     "description": "Algolia Instantsearch Demo",
-    "main": "index.html, main.js",
+    "main": "index.html, app.js, index.js",
     "scripts": {
         "build": "webpack -w",
         "start": "webpack serve"
