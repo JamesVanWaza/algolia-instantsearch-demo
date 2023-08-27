@@ -64,14 +64,6 @@ module.exports = {
             template: './src/html-templates/ecommerce-template.html'
         }),
         new HtmlWebpackPlugin({
-            filename: 'navbar.html',
-            template: './src/html-templates/navbar-template.html'
-        }),
-        new HtmlWebpackPlugin({
-            filename: 'navbar.html',
-            template: './src/html-templates/navbar-template.html'
-        }),
-        new HtmlWebpackPlugin({
             filename: 'signup.html',
             template: './src/html-templates/signup-template.html'
         }),
