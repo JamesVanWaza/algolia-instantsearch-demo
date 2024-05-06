@@ -15,7 +15,7 @@
         "algoliasearch": "^4.23.3",
         "bootstrap": "^5.3.3",
         "firebase": "^10.11.0",
-        "instantsearch.js": "^4.66.1"
+        "instantsearch.js": "^4.68.0"
     },
     "devDependencies": {
         "@babel/core": "^7.24.4",
