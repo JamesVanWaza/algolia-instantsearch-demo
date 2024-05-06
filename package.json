@@ -14,7 +14,7 @@
         "@popperjs/core": "^2.11.8",
         "algoliasearch": "^4.23.3",
         "bootstrap": "^5.3.3",
-        "firebase": "^10.11.0",
+        "firebase": "^10.11.1",
         "instantsearch.js": "^4.66.1"
     },
     "devDependencies": {
