@@ -25,10 +25,10 @@ search.addWidgets([
         container: '#hits',
         templates: {
             item: `
-            <article>
-                <h1>{{#helpers.highlight}}{ "attribute": "make" }{{/helpers.highlight}}</h1>
-                <img>{{#helpers.highlight}}{ "attribute": "image" }{{/helpers.highlight}}</img>
-            </article`
+                <article>
+                    <h1>{{#helpers.highlight}}{ "attribute": "make" }{{/helpers.highlight}}</h1>
+                    <img>{{#helpers.highlight}}{ "attribute": "image" }{{/helpers.highlight}}</img>
+                </article`
         }
     }),
 
