@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2.1.7",
+    "version": "2024.1.8",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -10,8 +10,8 @@
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "devDependencies": {
-        "@babel/core": "^7.24.5",
-        "@babel/preset-env": "^7.24.5",
+        "@babel/core": "^7.24.6",
+        "@babel/preset-env": "^7.24.6",
         "@fortawesome/fontawesome-free": "^6.5.2",
         "babel-loader": "^9.1.3",
         "css-loader": "^7.1.2",
