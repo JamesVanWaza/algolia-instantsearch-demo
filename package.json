@@ -35,7 +35,7 @@
     "dependencies": {
         "algoliasearch": "^4.23.3",
         "autoprefixer": "^10.4.19",
-        "instantsearch.js": "^4.69.0"
+        "instantsearch.js": "^4.70.0"
     },
     "repository": {
         "type": "git",
