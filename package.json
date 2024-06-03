@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2024.2.1",
+    "version": "2024.2.2",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -33,8 +33,10 @@
         "webpack-dev-server": "^5.0.4"
     },
     "dependencies": {
+        "@popperjs/core": "2.11.8",
         "algoliasearch": "^4.23.3",
         "autoprefixer": "^10.4.19",
+        "bootstrap": "5.3.3",
         "instantsearch.js": "^4.70.0"
     },
     "repository": {
