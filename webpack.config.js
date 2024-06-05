@@ -91,6 +91,10 @@ module.exports = {
             filename: 'signin.html',
             template: './src/html-templates/signin-template.html'
         }),
+        new HtmlWebpackPlugin({
+            filename: '404.html',
+            template: './src/html-templates/404-template.html'
+        }),
         new FaviconsWebpackPlugin({
             logo: './src/images/Icon-App-A@4x.png'
         }),
