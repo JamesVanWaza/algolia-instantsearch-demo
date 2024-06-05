@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2024.2.2",
+    "version": "2024.2.3",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -19,7 +19,7 @@
         "file-loader": "^6.2.0",
         "html-loader": "^5.0.0",
         "html-webpack-plugin": "^5.6.0",
-        "instantsearch.css": "^8.2.0",
+        "instantsearch.css": "^8.2.1",
         "postcss": "^8.4.38",
         "postcss-loader": "^8.1.1",
         "raw-loader": "^4.0.2",
@@ -37,7 +37,7 @@
         "algoliasearch": "^4.23.3",
         "autoprefixer": "^10.4.19",
         "bootstrap": "5.3.3",
-        "instantsearch.js": "^4.70.0"
+        "instantsearch.js": "^4.71.0"
     },
     "repository": {
         "type": "git",
