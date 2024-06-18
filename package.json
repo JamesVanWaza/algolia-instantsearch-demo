@@ -37,7 +37,7 @@
         "algoliasearch": "^4.23.3",
         "autoprefixer": "^10.4.19",
         "bootstrap": "5.3.3",
-        "instantsearch.js": "^4.71.1"
+        "instantsearch.js": "^4.72.0"
     },
     "repository": {
         "type": "git",
