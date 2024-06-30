@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2024.2.5",
+    "version": "2024.2.6",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -20,24 +20,24 @@
         "html-loader": "^5.0.0",
         "html-webpack-plugin": "^5.6.0",
         "instantsearch.css": "^8.2.1",
-        "postcss": "^8.4.38",
+        "postcss": "^8.4.39",
         "postcss-loader": "^8.1.1",
         "raw-loader": "^4.0.2",
-        "sass": "1.77.5",
+        "sass": "1.77.6",
         "sass-loader": "^14.2.1",
         "style-loader": "^4.0.0",
         "terser-webpack-plugin": "^5.3.10",
         "url-loader": "^4.1.1",
-        "webpack": "^5.92.0",
+        "webpack": "^5.92.1",
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^5.0.4"
     },
     "dependencies": {
         "@popperjs/core": "2.11.8",
-        "algoliasearch": "^4.23.3",
+        "algoliasearch": "^4.24.0",
         "autoprefixer": "^10.4.19",
         "bootstrap": "5.3.3",
-        "instantsearch.js": "^4.71.1"
+        "instantsearch.js": "^4.72.2"
     },
     "repository": {
         "type": "git",
