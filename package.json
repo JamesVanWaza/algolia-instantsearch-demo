@@ -14,7 +14,7 @@
         "algoliasearch": "^4.24.0",
         "autoprefixer": "^10.4.19",
         "bootstrap": "5.3.3",
-        "instantsearch.js": "^4.73.1"
+        "instantsearch.js": "^4.73.2"
     },
     "devDependencies": {
         "@babel/core": "^7.24.9",
