@@ -16,7 +16,7 @@
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! algoliasearch/lite */ \"./node_modules/algoliasearch/dist/algoliasearch-lite.umd.js\");\n/* harmony import */ var algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var instantsearch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! instantsearch.js */ \"./node_modules/instantsearch.js/es/index.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/search-box/search-box.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/hits/hits.js\");\n/** Algolia JS **/\n\n\n/** InstantsearchJS */\n\n\n/** InstantsearchJS Widgets */\n\nvar searchClient = algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0___default()('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');\nvar search = (0,instantsearch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({\n  indexName: 'demo_ecommerce',\n  searchClient: searchClient\n});\nsearch.addWidgets([(0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__[\"default\"])({\n  container: '#ecommerce',\n  placeholder: 'Search for products',\n  autofocus: true\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__[\"default\"])({\n  container: '#hits'\n})]);\nsearch.start();\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/ecommerce.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! algoliasearch/lite */ \"./node_modules/algoliasearch/dist/lite/lite.esm.browser.js\");\n/* harmony import */ var instantsearch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! instantsearch.js */ \"./node_modules/instantsearch.js/es/index.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/search-box/search-box.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/hits/hits.js\");\n/** Algolia JS **/\n\n\n/** InstantsearchJS */\n\n\n/** InstantsearchJS Widgets */\n\nvar searchClient = (0,algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__[\"default\"])('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');\nvar search = (0,instantsearch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({\n  indexName: 'demo_ecommerce',\n  searchClient: searchClient\n});\nsearch.addWidgets([(0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__[\"default\"])({\n  container: '#ecommerce',\n  placeholder: 'Search for products',\n  autofocus: true\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__[\"default\"])({\n  container: '#hits'\n})]);\nsearch.start();\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/ecommerce.js?");
 
 /***/ })
 
@@ -40,7 +40,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algo
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -79,18 +79,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algo
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -180,7 +168,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algo
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_algoliasearch-lite_umd_js-node_modules_instantsearch_-50985f"], () => (__webpack_require__("./src/js/ecommerce.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_lite_lite_esm_browser_js-node_modules_instantsearch_j-707d70"], () => (__webpack_require__("./src/js/ecommerce.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
