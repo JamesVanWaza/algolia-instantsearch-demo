@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2025.6.2",
+    "version": "2025.7.3",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -11,12 +11,12 @@
     "author": "JamesVanWaza <info@dosbranding.com>",
     "dependencies": {
         "@popperjs/core": "2.11.8",
-        "algoliasearch": "^5.29.0",
+        "algoliasearch": "^5.30.0",
         "bootstrap": "5.3.7"
     },
     "devDependencies": {
-        "@babel/core": "^7.27.7",
-        "@babel/preset-env": "^7.27.2",
+        "@babel/core": "^7.28.0",
+        "@babel/preset-env": "^7.28.0",
         "@fortawesome/fontawesome-free": "^6.7.2",
         "babel-loader": "^10.0.0",
         "css-loader": "^7.1.2",
