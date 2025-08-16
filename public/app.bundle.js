@@ -15,7 +15,7 @@
   \***********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/app.js?");
+eval("{\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/app.js?\n}");
 
 /***/ })
 
