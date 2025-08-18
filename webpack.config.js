@@ -95,6 +95,10 @@ module.exports = {
             filename: '404.html',
             template: './src/html-templates/404-template.html'
         }),
+        new HtmlWebpackPlugin({
+            filename: 'changelog.html',
+            template: './src/html-templates/changelog-template.html'
+        }),
         new FaviconsWebpackPlugin({
             logo: './src/images/Icon-App-A@4x.png'
         }),
