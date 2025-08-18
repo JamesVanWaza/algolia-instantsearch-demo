@@ -1,11 +1,13 @@
 import { defineConfig } from "eslint/config";
+import globals from "globals";
+import js from "@eslint/js";
+import { FlatCompat } from "@eslint/eslintrc";
+import jsdoc from "eslint-plugin-jsdoc";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-const globals = require("globals");
-const js = require("@eslint/js");
-
-const {
-    FlatCompat,
-} = require("@eslint/eslintrc");
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const compat = new FlatCompat({
     baseDirectory: __dirname,
@@ -13,7 +15,7 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-module.exports = defineConfig([{
+export const config = defineConfig([{
     languageOptions: {
         globals: {
             ...globals.node,
@@ -44,9 +46,6 @@ module.exports = defineConfig([{
 
     rules: {},
 }]);
-
-// Setting up JSDOC
-import jsdoc from "eslint-plugin-jsdoc";
 
 export default [
     {
