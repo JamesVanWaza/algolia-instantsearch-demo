@@ -1,49 +1,18 @@
-/** SCSS Imports */
-// @import 'algolia';
-// @import 'custom';
-
-
 /** Bootstrap **/
 //@import '~bootstrap/scss/bootstrap';
 //@import 'variables';
 
-/** Algolia **/
-//@import 'algolia';
-
-/** Google Fonts */
-//@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Quicksand:wght@500&display=swap');
-
 /** Font Awesome */
-// $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
-// @import '~@fortawesome/fontawesome-free/scss/fontawesome';
-// @import '~@fortawesome/fontawesome-free/scss/solid';
-// @import '~@fortawesome/fontawesome-free/scss/brands';
-// @import '~@fortawesome/fontawesome-free/scss/regular';
-
-// Await for Bootstrap SCSS Errors to be resolved once it is remove lines 9 - 13 - Aug 20, 2025 11:13
 @use '~@fortawesome/fontawesome-free/scss/fontawesome';
 
+/** Google Fonts */
+@use 'web-fonts';
 
-/** SCSS Starts Here */
-html,
-body {
-    height: 100%;
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+/** Algolia **/
+@use 'algolia';
 
 body {
     font-family: 'Inria Serif', serif;
-    display: flex;
-    flex-direction: column;
-}
-
-button {
-    font-family: 'Quicksand', sans-serif;
 }
 
 h1,
@@ -55,17 +24,48 @@ h6 {
     font-family: 'Quicksand', sans-serif;
 }
 
-nav {
-    // background: $primary;
-    padding: 5px 20px;
+/** SCSS Starts Here */
+// html,
+// body {
+//     height: 100%;
+// }
 
-    a {
-        font-size: 20px;
-    }
-}
+// * {
+//     box-sizing: border-box;
+//     padding: 0;
+//     margin: 0;
+// }
 
-/** Basic Styling */
-.footer {
-    // background-color: $primary;
-    // color: $white;
-}
+// body {
+//     font-family: 'Inria Serif', serif;
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// button {
+//     font-family: 'Quicksand', sans-serif;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     font-family: 'Quicksand', sans-serif;
+// }
+
+// nav {
+//     // background: $primary;
+//     padding: 5px 20px;
+
+//     a {
+//         font-size: 20px;
+//     }
+// }
+
+// /** Basic Styling */
+// .footer {
+//     // background-color: $primary;
+//     // color: $white;
+// }
