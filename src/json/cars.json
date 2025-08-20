@@ -52,6 +52,28 @@
     {
         "id": "011",
         "make": "Tesla",
+        "model": [
+            {
+                "name": "Model S",
+                "year": 2020
+            },
+            {
+                "name": "Model 3",
+                "year": 2021
+            },
+            {
+                "name": "Model X",
+                "year": 2022
+            },
+            {
+                "name": "Model Y",
+                "year": 2023
+            },
+            {
+                "name": "Cybertruck",
+                "year": 2024
+            }
+        ],
         "image": ""
     }
 ]
