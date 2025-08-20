@@ -168,7 +168,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_lite_builds_browser_js-node_modules_instantsearch_js_-c91da6","vendors-node_modules_instantsearch_js_es_widgets_stats_stats_js","vendors-node_modules_instantsearch_js_es_widgets_powered-by_powered-by_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js","vendors-node_modules_instantsearch_js_es_widgets_pagination_pagination_js"], () => (__webpack_require__("./src/js/stocks.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algolia_client-common_dist_common_js-node_modules_algolia_requester-brow-949f7a","vendors-node_modules_instantsearch_js_es_widgets_stats_stats_js","vendors-node_modules_algoliasearch_dist_lite_builds_browser_js","vendors-node_modules_instantsearch_js_es_widgets_powered-by_powered-by_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js","vendors-node_modules_instantsearch_js_es_widgets_pagination_pagination_js"], () => (__webpack_require__("./src/js/stocks.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
