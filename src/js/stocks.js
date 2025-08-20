@@ -1,7 +1,5 @@
-/** Algolia JS **/
-import algoliasearch from 'algoliasearch/lite';
-
-/** InstantsearchJS */
+/** InstantSearch.JS */
+import { liteClient as algoliasearch } from 'algoliasearch/lite';
 import instantsearch from 'instantsearch.js';
 
 /** InstantsearchJS Widgets */
