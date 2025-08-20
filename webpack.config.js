@@ -52,6 +52,10 @@ module.exports = {
             template: './src/html-templates/index-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'bills.html',
+            template: './src/html-templates/bills-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'airlines.html',
             template: './src/html-templates/airlines-template.html'
         }),
@@ -60,8 +64,16 @@ module.exports = {
             template: './src/html-templates/cars-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'changelog.html',
+            template: './src/html-templates/changelog-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: 'ecommerce.html',
             template: './src/html-templates/ecommerce-template.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'keoffices.html',
+            template: './src/html-templates/keoffices-template.html'
         }),
         new HtmlWebpackPlugin({
             filename: 'signup.html',
@@ -92,13 +104,14 @@ module.exports = {
             template: './src/html-templates/signin-template.html'
         }),
         new HtmlWebpackPlugin({
+            filename: 'usoffices.html',
+            template: './src/html-templates/usoffices-template.html'
+        }),
+        new HtmlWebpackPlugin({
             filename: '404.html',
             template: './src/html-templates/404-template.html'
         }),
-        new HtmlWebpackPlugin({
-            filename: 'changelog.html',
-            template: './src/html-templates/changelog-template.html'
-        }),
+
         new FaviconsWebpackPlugin({
             logo: './src/images/Icon-App-A@4x.png'
         }),
