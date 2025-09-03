@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/instantsearch.js/es/lib/utils/isSpecialClick.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/instantsearch.js/es/lib/utils/isSpecialClick.js ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   isSpecialClick: () => (/* binding */ isSpecialClick)\n/* harmony export */ });\nfunction isSpecialClick(event) {\n  var isMiddleClick = event.button === 1;\n  return isMiddleClick || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey;\n}\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./node_modules/instantsearch.js/es/lib/utils/isSpecialClick.js?\n}");
+
+/***/ }),
+
 /***/ "./src/js/stocks.js":
 /*!**************************!*\
   !*** ./src/js/stocks.js ***!
@@ -168,7 +178,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_lite_builds_browser_js-node_modules_instantsearch_js_-c91da6","vendors-node_modules_instantsearch_js_es_widgets_stats_stats_js","vendors-node_modules_instantsearch_js_es_widgets_powered-by_powered-by_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js","vendors-node_modules_instantsearch_js_es_widgets_pagination_pagination_js"], () => (__webpack_require__("./src/js/stocks.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_algoliasearch_dist_lite_builds_browser_js-node_modules_instantsearch_js_-c91da6","vendors-node_modules_instantsearch_js_es_widgets_stats_stats_js","vendors-node_modules_instantsearch_js_es_widgets_powered-by_powered-by_js","vendors-node_modules_instantsearch_js_es_widgets_hits-per-page_hits-per-page_js-node_modules_-d92a74"], () => (__webpack_require__("./src/js/stocks.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
