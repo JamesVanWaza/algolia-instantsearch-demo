@@ -1,6 +1,6 @@
 {
   "name": "aisd-functions",
-  "version": "2025.9.9",
+  "version": "2025.9.10",
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "lint": "eslint",
@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.35.0",
-    "eslint": "^9.35.0",
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-plugin-jsdoc": "^55.3.0",
+    "eslint-plugin-jsdoc": "^60.2.0",
     "firebase-functions-test": "^3.4.1",
     "globals": "^16.4.0"
   },
