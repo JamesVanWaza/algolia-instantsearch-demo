@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2025.9.9",
+    "version": "2025.9.10",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -27,7 +27,7 @@
         "instantsearch.js": "^4.80.0",
         "instantsearch.css": "^8.5.1",
         "raw-loader": "^4.0.2",
-        "sass": "1.93.1",
+        "sass": "1.93.2",
         "sass-loader": "^16.0.5",
         "style-loader": "^4.0.0",
         "terser-webpack-plugin": "^5.3.14",
