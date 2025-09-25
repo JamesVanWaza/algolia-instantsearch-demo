@@ -19,7 +19,7 @@ module.exports = {
         ecommerce: "./src/js/ecommerce.js",
         stocks: "./src/js/stocks.js",
         onethousandq: "./src/js/onethousandq.js",
-        getObjectIds: "./src/js/get-object-ids.js",
+        //getObjectIds: "./src/js/get-object-ids.js", - This page is causing issues thats why its commented out
     },
     output: {
         filename: "[name].bundle.js",
