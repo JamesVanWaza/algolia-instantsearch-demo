@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 const TerserPlugin = require('terser-webpack-plugin');
+const { get } = require("http");
 
 module.exports = {
     // https://webpack.js.org/configuration/mode/
@@ -18,6 +19,7 @@ module.exports = {
         ecommerce: "./src/js/ecommerce.js",
         stocks: "./src/js/stocks.js",
         onethousandq: "./src/js/onethousandq.js",
+        getObjectIds: "./src/js/get-object-ids.js",
     },
     output: {
         filename: "[name].bundle.js",
