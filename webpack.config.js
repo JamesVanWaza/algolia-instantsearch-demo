@@ -14,11 +14,15 @@ module.exports = {
         index: "./src/js/index.js",
         airline: "./src/js/airline.js",
         app: './src/js/app.js',
+        bills: "./src/js/bills.js",
         cars: "./src/js/cars.js",
+        changelog: "./src/js/changelog.js",
         contacts: "./src/js/contacts.js",
         ecommerce: "./src/js/ecommerce.js",
-        stocks: "./src/js/stocks.js",
+        keoffices: "./src/js/keoffices.js",
         onethousandq: "./src/js/onethousandq.js",
+        stocks: "./src/js/stocks.js",
+        usoffices: "./src/js/usoffices.js",
         //getObjectIds: "./src/js/get-object-ids.js", - This page is causing issues thats why its commented out
     },
     output: {
