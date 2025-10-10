@@ -164,7 +164,7 @@ eval("{module.exports = \"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
-/******/ 		__webpack_require__.b = (document && document.baseURI) || self.location.href;
+/******/ 		__webpack_require__.b = (typeof document !== 'undefined' && document.baseURI) || self.location.href;
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
