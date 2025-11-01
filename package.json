@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2025.10.17",
+    "version": "2025.11.18",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -11,7 +11,7 @@
     "author": "JamesVanWaza <info@dosbranding.com>",
     "dependencies": {
         "@popperjs/core": "2.11.8",
-        "algoliasearch": "^5.41.0",
+        "algoliasearch": "^5.42.0",
         "bootstrap": "5.3.8"
     },
     "devDependencies": {
@@ -27,7 +27,7 @@
         "instantsearch.css": "^8.6.0",
         "instantsearch.js": "^4.81.0",
         "raw-loader": "^4.0.2",
-        "sass": "1.93.2",
+        "sass": "1.93.3",
         "sass-loader": "^16.0.6",
         "style-loader": "^4.0.0",
         "terser-webpack-plugin": "^5.3.14",
