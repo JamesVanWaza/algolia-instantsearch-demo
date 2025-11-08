@@ -1,6 +1,6 @@
 {
     "name": "algolia-instantsearch-demo",
-    "version": "2025.11.19",
+    "version": "2025.11.20",
     "description": "Algolia Instantsearch Demo",
     "main": "index.html, main.js",
     "scripts": {
@@ -11,7 +11,7 @@
     "author": "JamesVanWaza <info@dosbranding.com>",
     "dependencies": {
         "@popperjs/core": "2.11.8",
-        "algoliasearch": "^5.42.0",
+        "algoliasearch": "^5.43.0",
         "bootstrap": "5.3.8"
     },
     "devDependencies": {
