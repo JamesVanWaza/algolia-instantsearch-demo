@@ -27,7 +27,7 @@
         "instantsearch.css": "^8.8.0",
         "instantsearch.js": "^4.83.0",
         "raw-loader": "^4.0.2",
-        "sass": "1.94.0",
+        "sass": "1.94.1",
         "sass-loader": "^16.0.6",
         "style-loader": "^4.0.0",
         "terser-webpack-plugin": "^5.3.14",
