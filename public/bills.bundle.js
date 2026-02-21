@@ -7,18 +7,28 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/bills.js":
+/***/ "./src/js/bills.js"
 /*!*************************!*\
   !*** ./src/js/bills.js ***!
   \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! algoliasearch/lite */ \"./node_modules/algoliasearch/dist/lite/builds/browser.js\");\n/* harmony import */ var instantsearch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! instantsearch.js */ \"./node_modules/instantsearch.js/es/index.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/hits/hits.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/powered-by/powered-by.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/refinement-list/refinement-list.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/search-box/search-box.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/stats/stats.js\");\n/** InstantSearch.JS */\n\n\n\n/** InstantsearchJS Widgets */\n\nvar searchClient = (0,algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__.liteClient)('N5OLC87R9A', '4ec613d58d623dba86b7fa0ca70cb116');\nvar search = (0,instantsearch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({\n  indexName: 'TheBills',\n  searchClient: searchClient\n});\nsearch.addWidgets([(0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_5__[\"default\"])({\n  container: '#bills',\n  placeholder: 'Search for bills',\n  autofocus: true\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__[\"default\"])({\n  container: '#hits',\n  templates: {\n    item: \"\\n                <article>\\n                    <h1>{{#helpers.highlight}}{ \\\"attribute\\\": \\\"make\\\" }{{/helpers.highlight}}</h1>\\n                    <img>{{#helpers.highlight}}{ \\\"attribute\\\": \\\"image\\\" }{{/helpers.highlight}}</img>\\n                </article\"\n  }\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_6__[\"default\"])({\n  container: '#stats'\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__[\"default\"])({\n  container: '#powered-by'\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_4__[\"default\"])({\n  container: '#refinement-list',\n  attribute: 'alliance'\n})]);\nsearch.start();\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/bills.js?\n}");
 
-/***/ })
+/***/ },
+
+/***/ "?4f7e"
+/*!********************************!*\
+  !*** ./util.inspect (ignored) ***!
+  \********************************/
+() {
+
+eval("{/* (ignored) */\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./util.inspect_(ignored)?\n}");
+
+/***/ }
 
 /******/ 	});
 /************************************************************************/
@@ -31,6 +41,12 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Check if module exists (development only)
+/******/ 		if (__webpack_modules__[moduleId] === undefined) {
+/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
+/******/ 			e.code = 'MODULE_NOT_FOUND';
+/******/ 			throw e;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -92,6 +108,18 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 				}
 /******/ 			}
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

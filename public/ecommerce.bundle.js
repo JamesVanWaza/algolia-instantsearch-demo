@@ -7,18 +7,28 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/ecommerce.js":
+/***/ "./src/js/ecommerce.js"
 /*!*****************************!*\
   !*** ./src/js/ecommerce.js ***!
   \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! algoliasearch/lite */ \"./node_modules/algoliasearch/dist/lite/builds/browser.js\");\n/* harmony import */ var instantsearch_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! instantsearch.js */ \"./node_modules/instantsearch.js/es/index.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/hits/hits.js\");\n/* harmony import */ var instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! instantsearch.js/es/widgets */ \"./node_modules/instantsearch.js/es/widgets/search-box/search-box.js\");\n/** InstantSearch.JS */\n\n\n\n/** InstantsearchJS Widgets */\n\nvar searchClient = (0,algoliasearch_lite__WEBPACK_IMPORTED_MODULE_0__.liteClient)('O966BSY3LD', '6db67900bfa16b4173055f87526117a7');\nvar search = (0,instantsearch_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])({\n  indexName: 'demo_ecommerce',\n  searchClient: searchClient\n});\nsearch.addWidgets([(0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_3__[\"default\"])({\n  container: '#ecommerce',\n  placeholder: 'Search for products',\n  autofocus: true\n}), (0,instantsearch_js_es_widgets__WEBPACK_IMPORTED_MODULE_2__[\"default\"])({\n  container: '#hits'\n})]);\nsearch.start();\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/ecommerce.js?\n}");
 
-/***/ })
+/***/ },
+
+/***/ "?4f7e"
+/*!********************************!*\
+  !*** ./util.inspect (ignored) ***!
+  \********************************/
+() {
+
+eval("{/* (ignored) */\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./util.inspect_(ignored)?\n}");
+
+/***/ }
 
 /******/ 	});
 /************************************************************************/
@@ -31,6 +41,12 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Check if module exists (development only)
+/******/ 		if (__webpack_modules__[moduleId] === undefined) {
+/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
+/******/ 			e.code = 'MODULE_NOT_FOUND';
+/******/ 			throw e;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
@@ -92,6 +108,18 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var alg
 /******/ 				}
 /******/ 			}
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

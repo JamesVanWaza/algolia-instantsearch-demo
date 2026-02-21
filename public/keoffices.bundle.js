@@ -9,15 +9,15 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/keoffices.js":
+/***/ "./src/js/keoffices.js"
 /*!*****************************!*\
   !*** ./src/js/keoffices.js ***!
   \*****************************/
-/***/ (() => {
+() {
 
 eval("{\n\n//# sourceURL=webpack://algolia-instantsearch-demo/./src/js/keoffices.js?\n}");
 
-/***/ })
+/***/ }
 
 /******/ 	});
 /************************************************************************/
