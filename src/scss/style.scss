@@ -1,6 +1,6 @@
 /** Bootstrap **/
-//@import '~bootstrap/scss/bootstrap';
-//@import 'variables';
+//@use '~bootstrap/scss/bootstrap';
+//@use 'variables';
 
 /** Font Awesome */
 @use '~@fortawesome/fontawesome-free/scss/fontawesome';
