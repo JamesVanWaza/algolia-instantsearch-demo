@@ -6,7 +6,7 @@
     "startbootstrap-dostesting": {
       "hosting": {
         "aisd": [
-          "algolia-instantsearch-demo"
+          "startbootstrap-dostesting"
         ]
       }
     }
