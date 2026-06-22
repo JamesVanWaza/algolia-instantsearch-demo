@@ -10,6 +10,7 @@
     "license": "MIT",
     "author": "JamesVanWaza <info@dosbranding.com>",
     "dependencies": {
+        "@dataconnect/generated": "file:src/dataconnect-generated",
         "@popperjs/core": "2.11.8",
         "algoliasearch": "^5.49.0",
         "bootstrap": "5.3.8"
