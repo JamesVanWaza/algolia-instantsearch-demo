@@ -12,7 +12,7 @@
     "dependencies": {
         "@dataconnect/generated": "file:src/dataconnect-generated",
         "@popperjs/core": "2.11.8",
-        "algoliasearch": "^5.49.0",
+        "algoliasearch": "^5.49.1",
         "bootstrap": "5.3.8"
     },
     "devDependencies": {
