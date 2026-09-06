@@ -1,0 +1,289 @@
+```json
+{
+  "leagues": [
+    {
+      "tier": 1,
+      "league_name": "FKF Premier League",
+      "clubs": [
+        {
+          "id": "ken-pl-01",
+          "name": "Gor Mahia FC",
+          "url": "https://gormahiafc.co.ke",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/2/23/Gor_Mahia_FC_%28logo%29.png"
+        },
+        {
+          "id": "ken-pl-02",
+          "name": "AFC Leopards",
+          "url": "https://afcleopards.co.ke",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/AFC_Leopards.png"
+        },
+        {
+          "id": "ken-pl-03",
+          "name": "Tusker FC",
+          "url": "https://tuskerfc.co.ke",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Tusker_FC_logo.svg/500px-Tusker_FC_logo.svg.png"
+        },
+        {
+          "id": "ken-pl-04",
+          "name": "Kenya Police FC",
+          "url": "https://kenyapolicefc.co.ke",
+          "logo": "https://kenyapolicefc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-05",
+          "name": "Bandari FC",
+          "url": "https://bandarifc.co.ke",
+          "logo": "https://bandarifc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-06",
+          "name": "KCB FC",
+          "url": "https://kcbgroup.com/sports/kcb-fc",
+          "logo": "https://kcbgroup.com/wp-content/uploads/kcb-fc-logo.png"
+        },
+        {
+          "id": "ken-pl-07",
+          "name": "Kariobangi Sharks",
+          "url": "https://sharks.co.ke",
+          "logo": "https://sharks.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-08",
+          "name": "Kakamega Homeboyz",
+          "url": "https://kakamegahomeboyzfc.co.ke",
+          "logo": "https://kakamegahomeboyzfc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-09",
+          "name": "Mathare United",
+          "url": "https://mathareunited.co.ke",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/8/87/MathareUnited.png"
+        },
+        {
+          "id": "ken-pl-10",
+          "name": "Ulinzi Stars FC",
+          "url": "https://ulinzistarsfc.com",
+          "logo": "https://ulinzistarsfc.com/logo.png"
+        },
+        {
+          "id": "ken-pl-11",
+          "name": "Shabana FC",
+          "url": "https://shabanafc.co.ke",
+          "logo": "https://shabanafc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-12",
+          "name": "Sofapaka FC",
+          "url": "https://sofapaka.co.ke",
+          "logo": "https://sofapaka.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-13",
+          "name": "Murang'a SEAL",
+          "url": "https://murangaseal.com",
+          "logo": "https://murangaseal.com/logo.png"
+        },
+        {
+          "id": "ken-pl-14",
+          "name": "Mara Sugar FC",
+          "url": "https://marasugarfc.co.ke",
+          "logo": "https://marasugarfc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-15",
+          "name": "Bidco United",
+          "url": "https://bidcounitedfc.co.ke",
+          "logo": "https://bidcounitedfc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-16",
+          "name": "Posta Rangers FC",
+          "url": "https://postarangersfc.co.ke",
+          "logo": "https://postarangersfc.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-17",
+          "name": "FC Talanta",
+          "url": "https://fctalanta.co.ke",
+          "logo": "https://fctalanta.co.ke/logo.png"
+        },
+        {
+          "id": "ken-pl-18",
+          "name": "Nairobi City Stars",
+          "url": "https://nairobicitystars.com",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/3/36/Nairobi_City_Stars_logo.png"
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "league_name": "FKF National Super League (NSL)",
+      "clubs": [
+        {
+          "id": "ken-nsl-01",
+          "name": "Nairobi United",
+          "url": "https://footballkenya.org/clubs/nairobi-united",
+          "logo": "https://footballkenya.org/logos/nairobi-united.png"
+        },
+        {
+          "id": "ken-nsl-02",
+          "name": "APS Bomet",
+          "url": "https://footballkenya.org/clubs/aps-bomet",
+          "logo": "https://footballkenya.org/logos/aps-bomet.png"
+        },
+        {
+          "id": "ken-nsl-03",
+          "name": "Darajani Gogo FC",
+          "url": "https://footballkenya.org/clubs/darajani-gogo",
+          "logo": "https://footballkenya.org/logos/darajani-gogo.png"
+        },
+        {
+          "id": "ken-nsl-04",
+          "name": "Naivas FC",
+          "url": "https://footballkenya.org/clubs/naivas-fc",
+          "logo": "https://footballkenya.org/logos/naivas-fc.png"
+        },
+        {
+          "id": "ken-nsl-05",
+          "name": "Fortune Sacco FC",
+          "url": "https://footballkenya.org/clubs/fortune-sacco",
+          "logo": "https://footballkenya.org/logos/fortune-sacco.png"
+        },
+        {
+          "id": "ken-nsl-06",
+          "name": "Kibera Black Stars",
+          "url": "https://kiberablackstars.co.ke",
+          "logo": "https://kiberablackstars.co.ke/logo.png"
+        },
+        {
+          "id": "ken-nsl-07",
+          "name": "MOFA Oyugis",
+          "url": "https://mofa.co.ke",
+          "logo": "https://mofa.co.ke/logo.png"
+        },
+        {
+          "id": "ken-nsl-08",
+          "name": "Kisumu All Stars",
+          "url": "https://footballkenya.org/clubs/kisumu-all-stars",
+          "logo": "https://footballkenya.org/logos/kisumu-all-stars.png"
+        },
+        {
+          "id": "ken-nsl-09",
+          "name": "Luanda Villa FC",
+          "url": "https://footballkenya.org/clubs/luanda-villa",
+          "logo": "https://footballkenya.org/logos/luanda-villa.png"
+        },
+        {
+          "id": "ken-nsl-10",
+          "name": "Migori Youth FC",
+          "url": "https://footballkenya.org/clubs/migori-youth",
+          "logo": "https://footballkenya.org/logos/migori-youth.png"
+        },
+        {
+          "id": "ken-nsl-11",
+          "name": "Nzoia Sugar FC",
+          "url": "https://footballkenya.org/clubs/nzoia-sugar",
+          "logo": "https://footballkenya.org/logos/nzoia-sugar.png"
+        },
+        {
+          "id": "ken-nsl-12",
+          "name": "Vihiga United",
+          "url": "https://footballkenya.org/clubs/vihiga-united",
+          "logo": "https://footballkenya.org/logos/vihiga-united.png"
+        },
+        {
+          "id": "ken-nsl-13",
+          "name": "Mombasa Stars",
+          "url": "https://footballkenya.org/clubs/mombasa-stars",
+          "logo": "https://footballkenya.org/logos/mombasa-stars.png"
+        },
+        {
+          "id": "ken-nsl-14",
+          "name": "SS Assad FC",
+          "url": "https://footballkenya.org/clubs/ss-assad",
+          "logo": "https://footballkenya.org/logos/ss-assad.png"
+        },
+        {
+          "id": "ken-nsl-15",
+          "name": "Muhoroni Youth FC",
+          "url": "https://footballkenya.org/clubs/muhoroni-youth",
+          "logo": "https://upload.wikimedia.org/wikipedia/en/e/e0/Muhoroni-Youth-Logo.png"
+        },
+        {
+          "id": "ken-nsl-16",
+          "name": "Dimba Patriots",
+          "url": "https://footballkenya.org/clubs/dimba-patriots",
+          "logo": "https://footballkenya.org/logos/dimba-patriots.png"
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "league_name": "FKF National Division One",
+      "clubs": [
+        {
+          "id": "ken-div1-01",
+          "name": "Bungoma Stars",
+          "url": "https://footballkenya.org/clubs/bungoma-stars",
+          "logo": "https://footballkenya.org/logos/bungoma-stars.png"
+        },
+        {
+          "id": "ken-div1-02",
+          "name": "Congo Boys FC",
+          "url": "https://footballkenya.org/clubs/congo-boys",
+          "logo": "https://footballkenya.org/logos/congo-boys.png"
+        },
+        {
+          "id": "ken-div1-03",
+          "name": "Dandora Youth",
+          "url": "https://footballkenya.org/clubs/dandora-youth",
+          "logo": "https://footballkenya.org/logos/dandora-youth.png"
+        },
+        {
+          "id": "ken-div1-04",
+          "name": "FC Dynamo Kitui",
+          "url": "https://footballkenya.org/clubs/fc-dynamo-kitui",
+          "logo": "https://footballkenya.org/logos/fc-dynamo-kitui.png"
+        },
+        {
+          "id": "ken-div1-05",
+          "name": "GFE 105 FC",
+          "url": "https://footballkenya.org/clubs/gfe-105",
+          "logo": "https://footballkenya.org/logos/gfe-105.png"
+        },
+        {
+          "id": "ken-div1-06",
+          "name": "Green Commandos",
+          "url": "https://footballkenya.org/clubs/green-commandos",
+          "logo": "https://footballkenya.org/logos/green-commandos.png"
+        },
+        {
+          "id": "ken-div1-07",
+          "name": "Gusii FC",
+          "url": "https://footballkenya.org/clubs/gusii-fc",
+          "logo": "https://footballkenya.org/logos/gusii-fc.png"
+        },
+        {
+          "id": "ken-div1-08",
+          "name": "Kenya Navy FC",
+          "url": "https://footballkenya.org/clubs/kenya-navy",
+          "logo": "https://footballkenya.org/logos/kenya-navy.png"
+        },
+        {
+          "id": "ken-div1-09",
+          "name": "Kibra United",
+          "url": "https://footballkenya.org/clubs/kibra-united",
+          "logo": "https://footballkenya.org/logos/kibra-united.png"
+        },
+        {
+          "id": "ken-div1-10",
+          "name": "Silibwet Leons",
+          "url": "https://footballkenya.org/clubs/silibwet-leons",
+          "logo": "https://footballkenya.org/logos/silibwet-leons.png"
+        }
+      ]
+    }
+  ]
+}
+
+```
